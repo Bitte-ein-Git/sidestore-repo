@@ -20,7 +20,7 @@ main(json => {
 
     document.getElementById("add")?.addEventListener("click", e => {
         if (confirm(`Add "${json.name}" to Altstore?`))
-            open(`altstore://source?url=${sourceURL}`);
+            open(`sidestore://source?url=${sourceURL}`);
     });
 
     // Set "View All News" link
