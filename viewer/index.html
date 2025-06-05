@@ -1,0 +1,57 @@
+<!-- 
+    index.html
+    altsource-viewer (https://github.com/therealFoxster/altsource-viewer)
+    edit: @elias1731 — "sidestore-src"
+    Copyright (c) 2023 Foxster.
+    MIT License.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./common/style.css">
+  <link rel="stylesheet" href="index.css">
+  <title>SideStore-Repo Viewer</title>
+</head>
+<body class="loading">
+  <div id="loading">
+    <img src="./common/assets/img/loading.gif" alt="loading">
+    <p>Loading</p>
+  </div>
+<!--   <div id="top">
+    <div id="nav-bar" class="hide-border">
+      <a href="https://github.com/elias1731/SideStore-src" class="hidden">
+        <i class="bi bi-github" style="font-size: 1.375rem;"></i>
+      </a>
+      <div id="title" class="hidden">
+          <p>SideStore-Repo Viewer</p>
+      </div>
+      <a href="https://github.com/therealFoxster/altsource-viewer" id="source-code">
+        <i class="bi bi-github" style="font-size: 1.375rem;"></i>
+      </a>
+    </div>
+  </div> -->
+  <div id="main">
+    <h1 id="title">SideStore-Repo Viewer</h1>
+    <div class="textfield">
+      <input type="url" placeholder="Source URL">
+      <a id="go">Go</a>
+    </div>
+    <div id="suggestions" class="section">
+      <div class="header">
+        <h2>Featured</h2>
+      </div>
+      <!-- <a href="https://github.com/therealFoxster/altsource-viewer" target="_blank">
+        <div class="suggestion" id="source-code">
+          <i class="bi bi-code-slash"></i>
+          Source Code
+        </div>
+      </a> -->
+    </div>
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
+</html>
