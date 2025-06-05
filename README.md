@@ -1,7 +1,7 @@
 
-#heyFordy's
+# heyFordy's
 
-##iOS SideStore (AltSource) Repository
+## iOS SideStore (AltSource) Repository
 
 # [Repo-Mainpage](https://repo.heyFordy.de/)
 
