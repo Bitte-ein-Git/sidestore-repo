@@ -193,7 +193,7 @@
       "bundleIdentifier": "de.heyfordy.ios.youtube",
       "developerName": "heyFordy | Various Developers",
       "subtitle": "YT with more features!",
-      "version": "20.22.1",
+      "version": "20.10.4",
       "versionDate": "2025-02-25",
       "versionDescription": "YouTube+",
       "downloadURL": "https://github.com/elias1731/ytlite/releases/download/v5.2b1/YouTubePlus_5.2b1.ipa",
@@ -203,15 +203,15 @@
       "category": "social",
       "size": 111020044,
       "screenshotURLs": [
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr1.jpg",
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr2.jpg",
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr3.jpg",
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr4.jpg",
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr5.jpg",
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr6.jpg",
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr7.jpg",
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr8.jpg",
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr9.jpg"
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/1.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/2.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/3.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/4.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/5.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/6.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/7.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/8.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/9.png"
       ],
       "appPermissions": {
         "entitlements": [
@@ -219,6 +219,9 @@
           "com.apple.developer.associated-domains",
           "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
           "com.apple.developer.usernotifications.time-sensitive",
+          "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
+          "com.apple.developer.usernotifications.time-sensitive",
+          "get-task-allow",
           "com.apple.developer.device-information.user-assigned-device-name",
           "com.apple.developer.group-session",
           "keychain-access-groups",
@@ -228,25 +231,32 @@
           "com.apple.developer.siri"
         ],
         "privacy": {
-          "NSAppleMusicUsageDescription": "Fordy's YouTube+ requires access to your Apple Music library.",
-          "NSBluetoothPeripheralUsageDescription": "Fordy's YouTube+ requires Bluetooth access to connect with nearby peripherals.",
-          "NSCameraUsageDescription": "Fordy's YouTube+ requires access to the camera to capture photos and videos.",
-          "NSContactsUsageDescription": "Fordy's YouTube+ requires access to your contacts to help you share content with your friends.",
-          "NSLocalNetworkUsageDescription": "Fordy's YouTube+ requires local network access to connect and communicate with nearby devices.",
-          "NSLocationWhenInUseUsageDescription": "Fordy's YouTube+ requires access to your location while using the app to provide personalized recommendations.",
-          "NSMicrophoneUsageDescription": "Fordy's YouTube+ requires access to your microphone to record audio.",
-          "NSPhotoLibraryUsageDescription": "Fordy's YouTube+ requires access to your Photo Library to save photos and videos.",
-          "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, Fordy's YouTube+ will link activity from this app with activity from non-Google apps and websites."
+          "NSAppleMusicUsageDescription": "YTLitePlus requires access to your Apple Music library.",
+          "NSBluetoothPeripheralUsageDescription": "YTLitePlus requires Bluetooth access to connect with nearby peripherals.",
+          "NSCameraUsageDescription": "YTLitePlus requires access to the camera to capture photos and videos.",
+          "NSContactsUsageDescription": "YTLitePlus requires access to your contacts to help you share content with your friends.",
+          "NSLocalNetworkUsageDescription": "YTLitePlus requires local network access to connect and communicate with nearby devices.",
+          "NSLocationWhenInUseUsageDescription": "YTLitePlus requires access to your location while using the app to provide personalized recommendations.",
+          "NSMicrophoneUsageDescription": "YTLitePlus requires access to your microphone to record audio.",
+          "NSPhotoLibraryUsageDescription": "YTLitePlus requires access to your Photo Library to save photos and videos.",
+          "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YTLitePlus will link activity from this app with activity from non-Google apps and websites."
         }
       },
       "versions": [
         {
-          "version": "20.22.1",
+          "version": "20.10.4",
           "date": "2025-02-25",
-          "localizedDescription": "first test release",
+          "localizedDescription": "new, fixed release - yt app back to 20.10.4",
+          "downloadURL": "https://github.com/Bitte-ein-Git/yt/releases/download/v5.2b1/YouTubePlus_5.2b1.ipa",
+          "size": 111020045
+        }
+        {
+          "version": "20.22.1",
+          "date": "2025-01-01",
+          "localizedDescription": "new, fixed release - yt app back to 20.10.4",
           "downloadURL": "https://github.com/elias1731/ytlite/releases/download/v5.2b1/YouTubePlus_5.2b1.ipa",
           "size": 111020044
-        }
+        },
       ]
     }
   ]
