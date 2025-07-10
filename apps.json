@@ -198,14 +198,14 @@
     {
       "beta": false,
       "name": "YouTube 🗿",
-      "bundleIdentifier": "de.heyfordy.ios.youtube",
+      "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "heyFordy | Various Developers",
       "subtitle": "YT with more features!",
       "version": "20.10.4",
       "versionDate": "2025-02-25",
       "versionDescription": "YouTube+",
       "downloadURL": "https://github.com/Bitte-ein-Git/yt/releases/download/v5.2b1/YouTubePlus_5.2b1.ipa",
-      "localizedDescription": "Fordy's YouTube+ is an enhanced Youtube app that offers a superior Youtube experience",
+      "localizedDescription": "heyFordy's YouTube+ is an enhanced Youtube app that offers a superior Youtube experience",
       "iconURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/Youtube_logo-512.png",
       "tintColor": "e22a41",
       "category": "social",
@@ -239,15 +239,15 @@
           "com.apple.developer.siri"
         ],
         "privacy": {
-          "NSAppleMusicUsageDescription": "YTLitePlus requires access to your Apple Music library.",
-          "NSBluetoothPeripheralUsageDescription": "YTLitePlus requires Bluetooth access to connect with nearby peripherals.",
-          "NSCameraUsageDescription": "YTLitePlus requires access to the camera to capture photos and videos.",
-          "NSContactsUsageDescription": "YTLitePlus requires access to your contacts to help you share content with your friends.",
-          "NSLocalNetworkUsageDescription": "YTLitePlus requires local network access to connect and communicate with nearby devices.",
-          "NSLocationWhenInUseUsageDescription": "YTLitePlus requires access to your location while using the app to provide personalized recommendations.",
-          "NSMicrophoneUsageDescription": "YTLitePlus requires access to your microphone to record audio.",
-          "NSPhotoLibraryUsageDescription": "YTLitePlus requires access to your Photo Library to save photos and videos.",
-          "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YTLitePlus will link activity from this app with activity from non-Google apps and websites."
+          "NSAppleMusicUsageDescription": "heyFordy's YT+requires access to your Apple Music library.",
+          "NSBluetoothPeripheralUsageDescription": "heyFordy's YT+requires Bluetooth access to connect with nearby peripherals.",
+          "NSCameraUsageDescription": "heyFordy's YT+requires access to the camera to capture photos and videos.",
+          "NSContactsUsageDescription": "heyFordy's YT+requires access to your contacts to help you share content with your friends.",
+          "NSLocalNetworkUsageDescription": "heyFordy's YT+requires local network access to connect and communicate with nearby devices.",
+          "NSLocationWhenInUseUsageDescription": "heyFordy's YT+requires access to your location while using the app to provide personalized recommendations.",
+          "NSMicrophoneUsageDescription": "heyFordy's YT+requires access to your microphone to record audio.",
+          "NSPhotoLibraryUsageDescription": "heyFordy's YT+requires access to your Photo Library to save photos and videos.",
+          "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, heyFordy's YT+will link activity from this app with activity from non-Google apps and websites."
         }
       },
       "versions": [
