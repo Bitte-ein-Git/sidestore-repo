@@ -18,22 +18,22 @@
       "contact": {
         "web": "https://github.com/elias1731"
       },
-      "version": "2.4.17",
-      "versionDate": "2025-6-05",
-      "size": 82218209,
-      "minOSVersion": "15.0",
-      "changelog": "Updated Spotify to v9.0.50, Updated EeveeSpotify to Swift 5.9.9. Improved localizations.\\n\\n More Info:\\n https://github.com/elias1731/SpotC-Plus-Plus/releases/tag/v2.4.17",
-      "versionDescription": "Updated EeveeSpotify to Swift 5.9.9. Improved localizations.\\n\\n More Info:\\n https://github.com/elias1731/SpotC-Plus-Plus/releases/tag/v2.4.17",
+      "version": "2.5.3",
+      "versionDate": "2025-7-10",
+      "size": 83068481,
+      "minOSVersion": "16.1",
+      "changelog": "Updated Spotify to 9.0.58.\\n\\n More Info:\\n https://github.com/elias1731/SpotC-Plus-Plus/releases/tag/v2.5.3",
+      "versionDescription": "Updated Spotify to 9.0.58.\\n\\n More Info:\\n https://github.com/elias1731/SpotC-Plus-Plus/releases/tag/v2.5.3",
       "information": [
         {
           "item": "Spotify",
-          "version": "v9.0.50",
+          "version": "v9.0.58",
           "authors": "Spotify AB",
           "url": "https://www.spotify.com"
         },
         {
           "item": "EeveeSpotify",
-          "version": "Swift 5.9.9",
+          "version": "Swift 6.0.2",
           "authors": "Whoeevee & Asdfzxcvbn",
           "url": "https://github.com/whoeevee/EeveeSpotify"
         },
@@ -70,6 +70,14 @@
       ],
       "subtitle": "Spotify Ad-Free, and Other QOL Enhancements.",
       "versions": [
+        {
+          "version": "2.5.3",
+          "date": "2025-7-10",
+          "localizedDescription": "Updated Spotify to 9.0.58.\\n\\n More Info:\\n https://github.com/elias1731/SpotC-Plus-Plus/releases/tag/v2.5.3",
+          "downloadURL": "https://github.com/elias1731/SpotC-Plus-Plus/releases/download/v2.5.3/Fordys-SpotC++.v2.5.3_v9.0.58_ALTSTORESOURCE_ONLY.ipa",
+          "size": 83068481,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "2.4.17",
           "date": "2025-6-05",
