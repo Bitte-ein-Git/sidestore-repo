@@ -198,9 +198,9 @@
     {
       "beta": false,
       "name": "YouTube 🗿",
-      "bundleIdentifier": "com.google.ios.youtube",
+      "bundleIdentifier": "de.heyfordy.ios.youtube",
       "developerName": "heyFordy | Various Developers",
-      "subtitle": "YT with more features!",
+      "subtitle": "heyFordy's YT+ with more features!",
       "version": "20.10.4",
       "versionDate": "2025-02-25",
       "versionDescription": "YouTube+",
@@ -257,13 +257,6 @@
           "localizedDescription": "new, fixed release - yt app back to 20.10.4",
           "downloadURL": "https://github.com/Bitte-ein-Git/yt/releases/download/v5.2b1/YouTubePlus_5.2b1.ipa",
           "size": 111020045
-        },
-        {
-          "version": "20.22.1",
-          "date": "2025-01-01",
-          "localizedDescription": "broken , 20.22.1",
-          "downloadURL": "https://github.com/elias1731/ytlite/releases/download/v5.2b1/YouTubePlus_5.2b1.ipa",
-          "size": 111020044
         }
       ]
     }
