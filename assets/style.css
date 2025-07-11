@@ -93,3 +93,12 @@ h6 {
 	  background-repeat: no-repeat;
 	  background-position: 50% 50%;
   }
+
+  .shortcuts {
+	  width: 120px;
+	  height: 120px;
+	  background-image: url("https://raw.githubusercontent.com/Bitte-ein-Git/sidestore-repo/refs/heads/main/assets/shortcuts.png");
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  background-position: 50% 50%;
+  }
