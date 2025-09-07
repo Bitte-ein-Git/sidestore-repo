@@ -1,62 +1,82 @@
 <!DOCTYPE html>
-<html lang="de" >
+<html lang="de">
 
-<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<head>
+    <meta charset="UTF-8">
     <title>Fordy's SideStore-Repo</title>
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="assets/style.css">
-	  <link rel="icon" type="image/png" href="https://heyfordy.de/assets/icon.png">
-	<link rel="stylesheet" type="text/css" href="https://heyfordy.de/retrowfc/Rubik.css">
-    <link rel="stylesheet" href="https://heyfordy.de/assets/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="icon" type="image/png" href="https://heyfordy.de/assets/icon.png">
+    <link rel="stylesheet" type="text/css" href="https://rr.heyfordy.de/assets/Rubik.css">
+    <link rel="stylesheet" href="https://heyfordy.de/assets/bootstrap.min.css">
 </head>
 
 <body>
-        <!-- #Meddl Leude -->
-	
-    <div class="container">
-    <div class="col-xs-12">
-            <div class="text-center" style="padding-top: 30px; padding-bottom: 10px;">
-				<img src="https://heyfordy.de/assets/Fordy.png" alt="heyFordy" style="height: 8rem;" />
-				<!-- <hr style="height: 0.2rem;border: none;background-color: #ffffff40;"> -->
-               <img class="backdrop sidestore">
-                <h2 style="color: #ffffff; font-family: 'Rubik'; font-size: 2.0rem;">SideStore-Repo</h2>
+    <div class="container text-center">
+        <div class="header-box">
+            <img src="https://heyfordy.de/assets/Fordy.png" alt="heyFordy" class="logo-main" />
+            <div class="backdrop sidestore"></div>
+            <h2 class="repo-title">SideStore-Repo</h2>
+        </div>
+
+        <div class="button-group">
+            <button onclick="location.href='sidestore://source?url=https://repo.heyfordy.de/apps.json'" 
+                    type="button" class="btn btn-outline-light btn-action">+ ADD SOURCE</button>
+            
+            <button onclick="location.href='sidestore://source?url=https://repo.heyfordy.de/server/SideStore.ipa'" 
+                    type="button" class="btn btn-outline-light btn-action">🖥️ » DOWNLOAD SideServer (Win)</button>
+            <button onclick="location.href='sidestore://source?url=https://repo.heyfordy.de/server/SideServer.Installer.msi'" 
+                    type="button" class="btn btn-outline-light btn-action">💾 • DOWNLOAD SIDESTORE .ipa</button>
+            <br>
+            <button onclick="location.href='itms-services://?action=download-manifest&url=https://repo.heyfordy.de/SideStore.plist'" 
+                    type="button" class="btn btn-outline-primary btn-action mt-3">📲 INSTALL SIDESTORE</button>
+        </div>
+
+        <hr class="separator">
+
+        <div class="preview-section">
+            <h3 class="section-title">Preview - Apps in my repo:</h3>
+            <div id="app-preview-container" class="preview-grid">
+                <p>Loading apps...</p>
             </div>
+            <button onclick="location.href='viewer/view/?source=https://repo.heyfordy.de/apps.json'" 
+                    class="btn btn-sm btn-link text-white-50 mt-3">Full Repo Viewer</button>
+        </div>
+
+        <hr class="separator">
+
+        <div class="footer-buttons">
+            <button onclick="location.href='https://heyfordy.de'" 
+                    type="button" class="btn btn-outline-light btn-footer">🌎 heyFordy.de</button>
+        </div>
     </div>
-    </div>
 
-
-    <div class="container">
-    <div class="col-xs-12">
-            <div class="text-center">
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='sidestore://source?url=https://repo.heyfordy.de/apps.json'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 800;">+ ADD SOURCE </button>
-                </div>
-                </br><hr style="height: 0.2rem;border: none;background-color: #ffffff40;"></br><div style="padding-bottom: 30px;">
-				<div class="text-center">
-					 <a style="color: #ffffff; font-family: 'Rubik'; font-size: 1.5rem;">Web Preview:</a>
-				</div>
-                <embed src="https://repo.heyfordy.de/viewer/view/?source=https://repo.heyfordy.de/apps.json" style="width:98%; height: 600px; background: transparent;">
-
-			<hr style="height: 0.2rem;border: none;background-color: #ffffff40;">
-				</br></br></br>
-			</div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://heyfordy.de'" type="button" class="btn btn-outline-light" style="width: 100%; padding-top:10px; padding-bottom:10px; font-weight: 600;">🌎 heyFordy.de</button>
-                </div>
-            <!--
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://heyfordy.de/impressum.html'" type="button" class="btn btn-outline-light" style="width: 100%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Impressum</button>
-                </div>
-            -->
-			</div>
-        
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <!-- This pre-lander was created by Brandon Nilsson -->
-    <!-- You're welcome to edit, reproduce and change this template as long as original contributation stays present on the website at all times.  -->
+    <script>
+        async function fetchRepoPreview() {
+            const container = document.getElementById('app-preview-container');
+            try {
+                const response = await fetch('apps.json');
+                const repo = await response.json();
+                
+                container.innerHTML = '';
+                // Render top 4 apps for a clean preview
+                repo.apps.slice(0, 4).forEach(app => {
+                    const appEl = document.createElement('div');
+                    appEl.className = 'preview-card';
+                    appEl.innerHTML = `
+                        <img src="${app.iconURL}" alt="${app.name}">
+                        <div class="preview-card-content">
+                            <h4>${app.name}</h4>
+                            <p>${app.subtitle || 'No description'}</p>
+                        </div>
+                    `;
+                    container.appendChild(appEl);
+                });
+            } catch (e) {
+                container.innerHTML = '<p class="text-danger">Preview load failed.</p>';
+            }
+        }
+        document.addEventListener('DOMContentLoaded', fetchRepoPreview);
+    </script>
 </body>
-
 </html>

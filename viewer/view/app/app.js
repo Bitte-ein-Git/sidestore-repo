@@ -79,7 +79,7 @@ main((json) => {
         title: `Get "${app.name}"`
     });
     installAppAlert.addAction({
-        title: "Install with AltStore / SideStore",
+        title: "Install with SideStore",
         style: 'default',
         handler: () => showAddToAltStoreAlert(json.name, "Install App", () => window.location.href = `altstore://install?url=${app.downloadURL}`)
     });
