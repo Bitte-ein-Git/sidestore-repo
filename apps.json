@@ -1,143 +1,29 @@
 {
-  "name": "🗿 heyFordy's Repo",
-  "subtitle": "Tweaked IPA's",
-  "identifier": "de.heyfordy.ios.repo",
+  "name": "🗿 • heyFordy's Repo",
+  "subtitle": "🌀 ›› Tweaked iOS Apps",
+  "identifier": "de.heyfordy.repo",
   "sourceURL": "https://heyfordy.de/ios-repo/apps.json",
   "website": "https://repo.heyfordy.de",
   "iconURL": "https://raw.githubusercontent.com/elias1731/hello/refs/heads/main/assets/icon.png",
-  "headerURL": "https://raw.githubusercontent.com/SpotCompiled/SpotC-AltStore-Repo/main/New%20Custom%20Header%203x2.png",
+  "headerURL": "https://raw.githubusercontent.com/elias1731/hello/main/assets/bg.png",
   "META": {
-    "repoName": "🗿 heyFordy's Repo",
+    "repoName": "🗿 • heyFordy's Repo",
     "repoIcon": "https://raw.githubusercontent.com/elias1731/hello/refs/heads/main/assets/icon.png"
   },
   "apps": [
     {
-      "name": "Spotify 🗿",
+      "name": "Spotify+🗿",
       "bundleIdentifier": "com.spotify.client",
-      "developerName": "heyFordy | Various Developers",
-      "contact": {
-        "web": "https://github.com/elias1731"
-      },
-      "version": "2.5.3",
-      "versionDate": "2025-7-10",
-      "size": 83068481,
-      "minOSVersion": "16.1",
-      "changelog": "Updated Spotify to 9.0.58.\\n\\n More Info:\\n https://github.com/elias1731/SpotC-Plus-Plus/releases/tag/v2.5.3",
-      "versionDescription": "Updated Spotify to 9.0.58.\\n\\n More Info:\\n https://github.com/elias1731/SpotC-Plus-Plus/releases/tag/v2.5.3",
-      "information": [
-        {
-          "item": "Spotify",
-          "version": "v9.0.58",
-          "authors": "Spotify AB",
-          "url": "https://www.spotify.com"
-        },
-        {
-          "item": "EeveeSpotify",
-          "version": "Swift 6.0.2",
-          "authors": "Whoeevee & Asdfzxcvbn",
-          "url": "https://github.com/whoeevee/EeveeSpotify"
-        },
-        {
-          "item": "Sposify",
-          "version": "v8.5.52",
-          "authors": "aesthyrica",
-          "url": "https://repo.dynastic.co/package/com.spos"
-        },
-        {
-          "item": "OpenSpotifySafariExtension",
-          "version": "Commit edd4cbd",
-          "authors": "Whoeevee",
-          "url": "https://github.com/whoeevee/OpenSpotifySafariExtension"
-        },
-        {
-          "item": "Sposify Fix",
-          "version": "v0.0.6",
-          "authors": "level3tjg",
-          "url": "https://level3tjg.me/repo/depictions?p=com.level3tjg.sposifyfix"
-        },
-        {
-          "item": "Orion Runtime",
-          "version": "v1.0.2",
-          "authors": "Theos Team",
-          "url": "https://orion.theos.dev"
-        },
-        {
-          "item": "SwiftProtobuf Framework",
-          "version": "v1.29.0",
-          "authors": "Apple Inc.",
-          "url": "https://github.com/apple/swift-protobuf"
-        }
-      ],
-      "subtitle": "Spotify Ad-Free, and Other QOL Enhancements.",
-      "versions": [
-        {
-          "version": "2.5.3",
-          "date": "2025-7-10",
-          "localizedDescription": "Updated Spotify to 9.0.58.\\n\\n More Info:\\n https://github.com/elias1731/SpotC-Plus-Plus/releases/tag/v2.5.3",
-          "downloadURL": "https://github.com/elias1731/SpotC-Plus-Plus/releases/download/v2.5.3/Fordys-SpotC++.v2.5.3_v9.0.58_ALTSTORESOURCE_ONLY.ipa",
-          "size": 83068481,
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "2.4.17",
-          "date": "2025-6-05",
-          "localizedDescription": "Updated EeveeSpotify to Swift 5.9.9. Improved localizations.\\n\\n More Info:\\n https://github.com/elias1731/SpotC-Plus-Plus/releases/tag/v2.4.17",
-          "downloadURL": "https://github.com/elias1731/SpotC-Plus-Plus/releases/download/v2.4.17/Fordys-SpotC++.v2.4.17_v9.0.50_ALTSTORESOURCE_ONLY.ipa",
-          "size": 82218209,
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "2.4.17-pre",
-          "date": "2025-6-05",
-          "localizedDescription": "Updated EeveeSpotify to Swift 5.9.9. Improved localizations.\\n\\n More Info:\\n https://github.com/elias1731/SpotC-Plus-Plus/releases/tag/v2.4.17",
-          "downloadURL": "https://github.com/elias1731/SpotC-Plus-Plus/releases/download/v2.4.17-pre/Fordys-SpotC++.v2.4.17_v9.0.48_ALTSTORESOURCE_ONLY.ipa",
-          "size": 82218209,
-          "minOSVersion": "15.0"
-        }
-      ],
-      "downloadURL": "https://github.com/elias1731/SpotC-Plus-Plus/releases/download/v2.5.3/Fordys-SpotC++.v2.5.3_v9.0.58_ALTSTORESOURCE_ONLY.ipa",
-      "localizedDescription": "EeveeSpotify is a Spotify IOS app tweak that removes ads, removes limited skips, and almost every other premium feature. It even allows you to fetch lyrics from third-party APIs bypassing Spotify's monthly limit! The only main premium feature that does not work is offline downloads, as this is done server-side.\n\n Sposify is a Spotify IOS app tweak that adds various enhancements to the Spotify IOS application.\n\n More Info:\n https://github.com/SpotCompiled/SpotC-Plus-Plus\n\n We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with any other company, agency or government agency. All product and company names are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.",
-      "iconURL": "https://github.com/SpotCompiled/SpotC-AltStore-Repo/raw/main/SpotC%2B%2B%20AppIcon.png",
-      "tintColor": "1ed760",
-      "appPermissions": {
-        "entitlements": [
-          "application-identifier",
-          "aps-environment",
-          "com.apple.developer.applesignin",
-          "com.apple.developer.associated-domains",
-          "com.apple.developer.carplay-audio",
-          "com.apple.developer.game-center",
-          "com.apple.developer.group-session",
-          "com.apple.developer.healthkit",
-          "com.apple.developer.healthkit.access",
-          "com.apple.developer.networking.multicast",
-          "com.apple.developer.networking.wifi-info",
-          "com.apple.developer.siri",
-          "com.apple.developer.team-identifier",
-          "com.apple.developer.usernotifications.communication",
-          "com.apple.security.application-groups",
-          "get-task-allow",
-          "keychain-access-groups"
-        ],
-        "privacy": {
-          "NSAppleMusicUsageDescription": "This will let you play your imported music on Spotify.",
-          "NSBluetoothAlwaysUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
-          "NSBluetoothPeripheralUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
-          "NSCalendarsUsageDescription": "This lets Spotify view and add events to your calendar.",
-          "NSCalendarsWriteOnlyAccessUsageDescription": "This lets Spotify add events to your calendar.",
-          "NSCameraUsageDescription": "This lets you scan Spotify Codes.",
-          "NSContactsUsageDescription": "This lets Spotify access calendars you may have shared with your contacts.",
-          "NSFaceIDUsageDescription": "This lets you set access restrictions using Face ID.",
-          "NSHealthShareUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
-          "NSHealthUpdateUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
-          "NSLocalNetworkUsageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files.",
-          "NSMicrophoneUsageDescription": "This lets you control Spotify using your voice.",
-          "NSMotionUsageDescription": "We will use this to understand which audio motivates you most.",
-          "NSPhotoLibraryAddUsageDescription": "This lets you save images to your Photo Library.",
-          "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library.",
-          "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you."
-        }
-      },
+      "developerName": "heyFordy",
+      "subtitle": "Ad-Free Music & QOL Tweaks.",
+      "version": "1.0.0",
+      "versionDate": "2025-09-07",
+      "size": 0,
+      "minOSVersion": "16.0",
+      "downloadURL": "https://github.com/Bitte-ein-Git/ios_spot/releases/latest/download/FordySpot_v1.0.0_sidestore.ipa",
+      "localizedDescription": "Spotify with EeveeSpotify and other tweaks integrated.",
+      "iconURL": "https://raw.githubusercontent.com/Bitte-ein-Git/ios_spot/main/custom/icon.png",
+      "tintColor": "1ED760",
       "screenshotURLs": [
         "https://raw.githubusercontent.com/SpotCompiled/SpotC-AltStore-Repo/main/SpotveeC%20ScreenShot%201.png",
         "https://raw.githubusercontent.com/SpotCompiled/SpotC-AltStore-Repo/main/SpotveeC%20ScreenShot%202.png",
@@ -151,65 +37,29 @@
         "https://github.com/SpotCompiled/SpotC-AltStore-Repo/raw/main/Spotilife%20Library%20View%20SS.png",
         "https://github.com/SpotCompiled/SpotC-AltStore-Repo/raw/main/Sposify%20Lyrics%20Screen.png"
       ],
-      "beta": false,
-      "permissions": [
+      "versions": [
         {
-          "type": "music",
-          "usageDescription": "This will let you play your imported music on Spotify."
-        },
-        {
-          "type": "bluetooth",
-          "usageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth."
-        },
-        {
-          "type": "camera",
-          "usageDescription": "This lets you scan Spotify Codes."
-        },
-        {
-          "type": "faceid",
-          "usageDescription": "This lets you set access restrictions using Face ID."
-        },
-        {
-          "type": "network",
-          "usageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files."
-        },
-        {
-          "type": "microphone",
-          "usageDescription": "This lets you control Spotify using your voice."
-        },
-        {
-          "type": "motion",
-          "usageDescription": "We will use this to understand which audio motivates you most."
-        },
-        {
-          "type": "photos",
-          "usageDescription": "This lets you save images to your Photo Library."
-        },
-        {
-          "type": "health",
-          "usageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts."
-        },
-        {
-          "type": "tracking",
-          "usageDescription": "Your data will be used to deliver personalized ads or content to you."
+          "version": "1.0.0",
+          "date": "2025-09-07",
+          "downloadURL": "https://github.com/Bitte-ein-Git/ios_spot/releases/latest/download/FordySpot_v1.0.0_sidestore.ipa",
+          "size": 0,
+          "minOSVersion": "16.0"
         }
       ]
     },
     {
-      "beta": false,
-      "name": "YouTube 🗿",
-      "bundleIdentifier": "de.heyfordy.ios.youtube",
-      "developerName": "heyFordy | Various Developers",
-      "subtitle": "heyFordy's YT+ with more features!",
-      "version": "20.10.4",
-      "versionDate": "2025-02-25",
-      "versionDescription": "YouTube+",
-      "downloadURL": "https://github.com/Bitte-ein-Git/yt/releases/download/v5.2b1/YouTubePlus_5.2b1.ipa",
-      "localizedDescription": "heyFordy's YouTube+ is an enhanced Youtube app that offers a superior Youtube experience",
-      "iconURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/Youtube_logo-512.png",
-      "tintColor": "e22a41",
-      "category": "social",
-      "size": 111020045,
+      "name": "YouTube+🗿",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "developerName": "heyFordy",
+      "subtitle": "Enhanced YouTube experience.",
+      "version": "5.2b3",
+      "versionDate": "2025-09-07",
+      "size": 0,
+      "minOSVersion": "16.0",
+      "downloadURL": "https://github.com/Bitte-ein-Git/ios_yt/releases/latest/download/FordyYT_5.2b3.ipa",
+      "localizedDescription": "YouTube with YTLitePlus and other tweaks for a better viewing experience.",
+      "iconURL": "https://raw.githubusercontent.com/Bitte-ein-Git/ios_yt/main/custom/icon.png",
+      "tintColor": "FF0000",
       "screenshotURLs": [
         "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/1.png",
         "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/2.png",
@@ -221,42 +71,13 @@
         "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/8.png",
         "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/9.png"
       ],
-      "appPermissions": {
-        "entitlements": [
-          "com.apple.security.application-groups",
-          "com.apple.developer.associated-domains",
-          "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
-          "com.apple.developer.usernotifications.time-sensitive",
-          "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
-          "com.apple.developer.usernotifications.time-sensitive",
-          "get-task-allow",
-          "com.apple.developer.device-information.user-assigned-device-name",
-          "com.apple.developer.group-session",
-          "keychain-access-groups",
-          "com.apple.developer.networking.multicast",
-          "aps-environment",
-          "com.apple.developer.networking.wifi-info",
-          "com.apple.developer.siri"
-        ],
-        "privacy": {
-          "NSAppleMusicUsageDescription": "heyFordy's YT+requires access to your Apple Music library.",
-          "NSBluetoothPeripheralUsageDescription": "heyFordy's YT+requires Bluetooth access to connect with nearby peripherals.",
-          "NSCameraUsageDescription": "heyFordy's YT+requires access to the camera to capture photos and videos.",
-          "NSContactsUsageDescription": "heyFordy's YT+requires access to your contacts to help you share content with your friends.",
-          "NSLocalNetworkUsageDescription": "heyFordy's YT+requires local network access to connect and communicate with nearby devices.",
-          "NSLocationWhenInUseUsageDescription": "heyFordy's YT+requires access to your location while using the app to provide personalized recommendations.",
-          "NSMicrophoneUsageDescription": "heyFordy's YT+requires access to your microphone to record audio.",
-          "NSPhotoLibraryUsageDescription": "heyFordy's YT+requires access to your Photo Library to save photos and videos.",
-          "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, heyFordy's YT+will link activity from this app with activity from non-Google apps and websites."
-        }
-      },
       "versions": [
         {
-          "version": "20.10.4",
-          "date": "2025-02-25",
-          "localizedDescription": "new, fixed release - yt app back to 20.10.4",
-          "downloadURL": "https://github.com/Bitte-ein-Git/yt/releases/download/v5.2b1/YouTubePlus_5.2b1.ipa",
-          "size": 111020045
+          "version": "5.2b3",
+          "date": "2025-09-07",
+          "downloadURL": "https://github.com/Bitte-ein-Git/ios_yt/releases/latest/download/FordyYT_5.2b3.ipa",
+          "size": 0,
+          "minOSVersion": "16.0"
         }
       ]
     }
