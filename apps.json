@@ -16,13 +16,13 @@
       "bundleIdentifier": "com.spotify.client",
       "developerName": "heyFordy",
       "subtitle": "Ad-Free Music & QOL Tweaks.",
-      "version": "1.0.0",
-      "versionDate": "2025-09-07",
+      "version": "6.1.3",
+      "versionDate": "2025-09-11",
       "size": 0,
       "minOSVersion": "16.0",
-      "downloadURL": "https://github.com/Bitte-ein-Git/ios_spot/releases/latest/download/FordySpot_v1.0.0_sidestore.ipa",
-      "localizedDescription": "Spotify with EeveeSpotify and other tweaks integrated.",
-      "iconURL": "https://raw.githubusercontent.com/Bitte-ein-Git/ios_spot/main/custom/icon.png",
+      "downloadURL": "https://github.com/Bitte-ein-Git/ios_spot/releases/latest/download/FordySpot_v6.1.3.ipa",
+      "localizedDescription": "Spotify with EeveeSpotify.",
+      "iconURL": "https://raw.githubusercontent.com/Bitte-ein-Git/ios_spot/refs/heads/swift/spot.png",
       "tintColor": "1ED760",
       "screenshotURLs": [
         "https://raw.githubusercontent.com/SpotCompiled/SpotC-AltStore-Repo/main/SpotveeC%20ScreenShot%201.png",
@@ -39,9 +39,9 @@
       ],
       "versions": [
         {
-          "version": "1.0.0",
-          "date": "2025-09-07",
-          "downloadURL": "https://github.com/Bitte-ein-Git/ios_spot/releases/latest/download/FordySpot_v1.0.0_sidestore.ipa",
+          "version": "6.1.3",
+          "date": "2025-09-11",
+          "downloadURL": "https://github.com/Bitte-ein-Git/ios_spot/releases/latest/download/FordySpot_v6.1.3.ipa",
           "size": 0,
           "minOSVersion": "16.0"
         }
