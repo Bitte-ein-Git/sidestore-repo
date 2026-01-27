@@ -16,9 +16,9 @@
       "bundleIdentifier": "com.spotify.client",
       "developerName": "heyFordy",
       "subtitle": "Ad-Free Music & QOL Tweaks.",
-      "version": "6.1.6",
-      "versionDate": "2025-09-11",
-      "size": 0,
+      "version": "6.2.2",
+      "versionDate": "2026-01-27",
+      "size": 85895992,
       "minOSVersion": "16.0",
       "downloadURL": "https://api.heyfordy.de/ios/spot",
       "localizedDescription": "Spotify with EeveeSpotify.",
@@ -39,6 +39,13 @@
       ],
       "versions": [
         {
+          "version": "6.2.2",
+          "date": "2026-01-27",
+          "localizedDescription": "Updated version to 6.2.2",
+          "downloadURL": "https://api.heyfordy.de/ios/spot",
+          "size": 85895992
+        },
+        {
           "version": "6.1.6",
           "date": "2025-09-11",
           "downloadURL": "https://api.heyfordy.de/ios/spot",
@@ -52,9 +59,9 @@
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "heyFordy",
       "subtitle": "iOS YouTube Vanced experience.",
-      "version": "5.2b3",
-      "versionDate": "2025-09-07",
-      "size": 0,
+      "version": "5.2b4",
+      "versionDate": "2026-01-27",
+      "size": 122933534,
       "minOSVersion": "16.0",
       "downloadURL": "https://api.heyfordy.de/ios/yt",
       "localizedDescription": "YouTube with YTLitePlus and other tweaks for a better viewing experience.",
@@ -72,6 +79,13 @@
         "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/9.png"
       ],
       "versions": [
+        {
+          "version": "5.2b4",
+          "date": "2026-01-27",
+          "localizedDescription": "Updated version to 5.2b4",
+          "downloadURL": "https://api.heyfordy.de/ios/yt",
+          "size": 122933534
+        },
         {
           "version": "5.2b3",
           "date": "2025-09-07",
