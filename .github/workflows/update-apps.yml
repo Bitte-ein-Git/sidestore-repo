@@ -1,0 +1,78 @@
+name: Update Apps
+on:
+  workflow_dispatch:
+    inputs:
+      update_spotify:
+        description: 'Update Spotify+'
+        type: boolean
+        default: true
+      spotify_version:
+        description: 'New Spotify version'
+        default: '6.2.2'
+        required: true
+      update_youtube:
+        description: 'Update YouTube+'
+        type: boolean
+        default: true
+      youtube_version:
+        description: 'New YouTube version'
+        default: '5.2b4'
+        required: true
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update app data
+        run: |
+          DATE=$(date +%Y-%m-%d)
+          
+          # function to download app and update json metadata
+          update_app() {
+            local BUNDLE_ID=$1
+            local VERSION=$2
+            local URL=$3
+            
+            # download file to determine exact byte size
+            curl -sL "$URL" -o "temp.ipa"
+            SIZE=$(stat -c%s "temp.ipa")
+            rm "temp.ipa"
+            
+            # update apps.json with new values and version history
+            jq --arg bid "$BUNDLE_ID" \
+               --arg ver "$VERSION" \
+               --arg date "$DATE" \
+               --argjson size "$SIZE" \
+               --arg url "$URL" \
+               '(.apps[] | select(.bundleIdentifier == $bid)) |= (
+                  .version = $ver |
+                  .versionDate = $date |
+                  .size = $size |
+                  .versions = (if (.versions | any(.version == $ver)) then
+                    .versions | map(if .version == $ver then . + {date: $date, size: $size} else . end)
+                  else
+                    [{version: $ver, date: $date, downloadURL: $url, size: $size}] + .versions
+                  end)
+                )' apps.json > apps.tmp && mv apps.tmp apps.json
+          }
+
+          # check for spotify update request
+          if [ "${{ github.event.inputs.update_spotify }}" == "true" ]; then
+            update_app "com.spotify.client" "${{ github.event.inputs.spotify_version }}" "https://api.heyfordy.de/ios/spot"
+          fi
+
+          # check for youtube update request
+          if [ "${{ github.event.inputs.update_youtube }}" == "true" ]; then
+            update_app "com.google.ios.youtube" "${{ github.event.inputs.youtube_version }}" "https://api.heyfordy.de/ios/yt"
+          fi
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: Update apps to latest versions"
+          file_pattern: apps.json
