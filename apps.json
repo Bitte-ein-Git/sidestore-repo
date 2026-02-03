@@ -15,14 +15,14 @@
       "name": "Spotify+🗿",
       "bundleIdentifier": "com.spotify.client",
       "developerName": "heyFordy",
-      "subtitle": "Ad-Free Music & QOL Tweaks.",
+      "subtitle": "Spotify • Ad-free / Premium Patch",
       "version": "6.2.2",
       "versionDate": "2026-01-27",
       "size": 85895992,
       "minOSVersion": "16.0",
       "downloadURL": "https://api.heyfordy.de/ios/spot",
-      "localizedDescription": "Spotify with EeveeSpotify.",
-      "iconURL": "https://raw.githubusercontent.com/Bitte-ein-Git/ios_spot/refs/heads/swift/spot.png",
+      "localizedDescription": "Spotify + custom 'EeveeSpotifyReborn'.",
+      "iconURL": "https://raw.githubusercontent.com/Bitte-ein-Git/sidestore-repo/refs/heads/main/assets/spot.png",
       "tintColor": "1ED760",
       "appPermissions": {
         "entitlements": [
@@ -64,17 +64,11 @@
         }
       },
       "screenshotURLs": [
-        "https://raw.githubusercontent.com/SpotCompiled/SpotC-AltStore-Repo/main/SpotveeC%20ScreenShot%201.png",
-        "https://raw.githubusercontent.com/SpotCompiled/SpotC-AltStore-Repo/main/SpotveeC%20ScreenShot%202.png",
-        "https://raw.githubusercontent.com/SpotCompiled/SpotC-AltStore-Repo/main/SpotveeC%20ScreenShot%203.png",
-        "https://raw.githubusercontent.com/SpotCompiled/SpotC-AltStore-Repo/main/SpotveeC%20ScreenShot%204.png",
-        "https://github.com/SpotCompiled/SpotC-AltStore-Repo/raw/main/Sposify%20Settings%201.png",
-        "https://github.com/SpotCompiled/SpotC-AltStore-Repo/raw/main/Sposify%20Settings%202.png",
-        "https://github.com/SpotCompiled/SpotC-AltStore-Repo/raw/main/Sposify%20Car%20Mode.png",
-        "https://github.com/SpotCompiled/SpotC-AltStore-Repo/raw/main/Spotilife%20Playing%20SS.png",
-        "https://github.com/SpotCompiled/SpotC-AltStore-Repo/raw/main/Spotilife%20PlayList%20SS.png",
-        "https://github.com/SpotCompiled/SpotC-AltStore-Repo/raw/main/Spotilife%20Library%20View%20SS.png",
-        "https://github.com/SpotCompiled/SpotC-AltStore-Repo/raw/main/Sposify%20Lyrics%20Screen.png"
+        "https://raw.githubusercontent.com/Bitte-ein-Git/sidestore-repo/refs/heads/main/assets/FordySpot00.jpeg",
+        "https://raw.githubusercontent.com/Bitte-ein-Git/sidestore-repo/refs/heads/main/assets/FordySpot01.jpeg",
+        "https://raw.githubusercontent.com/Bitte-ein-Git/sidestore-repo/refs/heads/main/assets/FordySpot02.jpeg",
+        "https://raw.githubusercontent.com/Bitte-ein-Git/sidestore-repo/refs/heads/main/assets/FordySpot03.jpeg",
+        "https://raw.githubusercontent.com/Bitte-ein-Git/sidestore-repo/refs/heads/main/assets/FordySpot04.jpeg"
       ],
       "versions": [
         {
