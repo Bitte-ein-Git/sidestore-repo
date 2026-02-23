@@ -124,21 +124,21 @@
     },
     {
       "beta": false,
-      "name": "LiveContainer",
+      "name": "LiveContainer+🗿",
       "bundleIdentifier": "com.kdt.livecontainer",
       "developerName": "LiveContainer Team",
-      "subtitle": "Run iOS apps without actually installing them!",
-      "version": "3.6.1",
-      "versionDate": "2025-08-19",
-      "versionDescription": "⚠️This version ⚠️REQUIRES⚠️ SideStore 0.6.2+ / AltStore 2.2.1+ to install.\r\n>[!Note]\r\n> This a minor release that solves the following issues in version 3.6.0 and adds the following features. For more information, please see [3.6.0 release note](https://github.com/LiveContainer/LiveContainer/releases/tag/3.6.0).\r \n• Fixed an issue where symbol offset caches were not reset after an iOS update, causing crashes. Fixes 765 757 760  \r\n• Fixed a bug where window controls could appear behind the status bar if the app was terminated while in full-screen mode with the dock hidden. Fixes 742  \r\n• Fixed an issue preventing the built-in SideStore from deactivating apps. Fixes 725  \r\n• Fixed a problem where LiveContainer failed to locate certain symbols in dyld on iPad 7 running iOS 18.6. Fixes 746  \r\n• Fixed a crash that could occur when LiveContainer attempted to check if another instance of LiveContainer was running. Fixes 751  \r\n• Fixed an issue where LiveContainer tries to open private app in another LiveContainer if an app is running in the primary LiveContainer.\r \nNew Features\r\n• On iPad, LiveContainer will now only open a new window in full-screen mode if LiveContainer itself is already in full-screen mode.  \r\n• The \"Fix File Picker and Local Notifications\" option has been split into three separate options: Fix File Picker, Fix Local Notifications, and Use LiveContainer's Bundle ID. Implements 739  \r \nLocalization\r\n• Updated translations: Arabic, Japanese, Polish, and Brazilian Portuguese.  \r\n• Added Korean translation, contributed by @Dr-Sauce.  ",
-      "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.6.1/LiveContainer.ipa",
+      "subtitle": "Allows you to refresh LiveContainer and other apps using only one of your 3 free app slots!",
+      "version": "9.9.9",
+      "versionDate": "2026-01-01",
+      "versionDescription": "⚠️ This will replace SideStore!",
+      "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/latest/download/LiveContainer+SideStore.ipa",
       "localizedDescription": "Run iOS apps without actually installing them!",
-      "iconURL": "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/screenshots/AppIcon1024.png",
+      "iconURL": "https://raw.githubusercontent.com/Bitte-ein-Git/sidestore-repo/refs/heads/main/assets/lc.png",
       "tintColor": "#0784FC",
       "category": "utilities",
       "size": 4232092,
       "screenshotURLs": [
-        "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/screenshots/1.png"
+        "https://sidestore.io/hero_render2.c4104718.webp"
       ],
       "appPermissions": {
         "entitlements": [
@@ -193,6 +193,13 @@
         }
       },
       "versions": [
+        {
+          "version": "9.9.9",
+          "date": "2026-01-01",
+          "localizedDescription": "LiveContainer + SideStore 🗿",
+          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/latest/download/LiveContainer+SideStore.ipa",
+          "size": 4232092
+        },
         {
           "version": "3.6.1",
           "date": "2025-08-19",
