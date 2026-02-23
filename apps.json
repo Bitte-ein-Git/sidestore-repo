@@ -128,8 +128,8 @@
       "bundleIdentifier": "com.kdt.livecontainer",
       "developerName": "LiveContainer Team",
       "subtitle": "Allows you to refresh LiveContainer and other apps using only one of your 3 free app slots!",
-      "version": "9.9.9",
-      "versionDate": "2026-01-01",
+      "version": "3.7.0",
+      "versionDate": "2026-02-19",
       "versionDescription": "⚠️ This will replace SideStore!",
       "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/latest/download/LiveContainer+SideStore.ipa",
       "localizedDescription": "Run iOS apps without actually installing them!",
@@ -194,8 +194,8 @@
       },
       "versions": [
         {
-          "version": "9.9.9",
-          "date": "2026-01-01",
+          "version": "3.7.0",
+          "date": "2026-02-19",
           "localizedDescription": "LiveContainer + SideStore 🗿",
           "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/latest/download/LiveContainer+SideStore.ipa",
           "size": 4232092
