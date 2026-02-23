@@ -1,0 +1,71 @@
+name: Update LiveContainer Version
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 3 * * *" # 03:00 UTC daily
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch latest stable release tag
+        id: fetch_release
+        run: |
+          API_URL="https://api.github.com/repos/LiveContainer/LiveContainer/releases"
+
+          # Get first non-draft, non-prerelease release
+          RELEASE_JSON=$(curl -s $API_URL | jq '[.[] | select(.prerelease == false and .draft == false)][0]')
+
+          TAG=$(echo "$RELEASE_JSON" | jq -r '.tag_name')
+          DATE=$(echo "$RELEASE_JSON" | jq -r '.published_at' | cut -d'T' -f1)
+
+          if [ -z "$TAG" ] || [ "$TAG" = "null" ]; then
+            echo "No valid release found"
+            exit 1
+          fi
+
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+          echo "date=$DATE" >> $GITHUB_OUTPUT
+
+      - name: Update apps.json
+        run: |
+          TAG="${{ steps.fetch_release.outputs.tag }}"
+          DATE="${{ steps.fetch_release.outputs.date }}"
+
+          jq --arg tag "$TAG" --arg date "$DATE" '
+            (.apps[] | select(.bundleIdentifier == "com.kdt.livecontainer")) as $app
+            |
+            .apps |= map(
+              if .bundleIdentifier == "com.kdt.livecontainer" then
+                .version = $tag
+                | .versionDate = $date
+                | .versions[0].version = $tag
+                | .versions[0].date = $date
+              else .
+              end
+            )
+          ' apps.json > apps.tmp.json
+
+          mv apps.tmp.json apps.json
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet; then
+            echo "No changes detected."
+            exit 0
+          fi
+
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add apps.json
+          git commit -m "Auto-update LiveContainer to ${{ steps.fetch_release.outputs.tag }}"
+          git push
