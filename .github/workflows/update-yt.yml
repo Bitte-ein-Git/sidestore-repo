@@ -1,0 +1,102 @@
+name: "🌀• Update YouTube+🗿 in apps.json"
+
+on:
+  schedule:
+    - cron: '15 12 * * *' # Runs daily at 12:15 PM UTC
+  workflow_dispatch:      # Allows manual triggering
+
+permissions:
+  contents: write         # Required to push changes to apps.json and yt-ver.txt
+
+jobs:
+  update-apps-json:
+    name: Check & Update apps.json
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check for new release
+        id: check_release
+        run: |
+          # Fetch the latest release data from Bitte-ein-Git/ios_yt
+          LATEST_RELEASE=$(curl -s "https://api.github.com/repos/Bitte-ein-Git/ios_yt/releases/latest")
+          LATEST_TAG=$(echo "$LATEST_RELEASE" | jq -r .tag_name)
+          
+          if [ "$LATEST_TAG" == "null" ] || [ -z "$LATEST_TAG" ]; then
+            echo "::error::Could not fetch the latest tag."
+            exit 1
+          fi
+
+          # Read local tag if yt-ver.txt exists
+          if [ -f "yt-ver.txt" ]; then
+            CURRENT_TAG=$(cat yt-ver.txt)
+          else
+            CURRENT_TAG=""
+          fi
+
+          # Compare versions
+          if [ "$LATEST_TAG" == "$CURRENT_TAG" ]; then
+            echo "No new version found (Current: $LATEST_TAG). Skipping update."
+            echo "run_update=false" >> $GITHUB_OUTPUT
+          else
+            echo "New version found! ($CURRENT_TAG -> $LATEST_TAG)"
+            echo "run_update=true" >> $GITHUB_OUTPUT
+            
+            # Extract details for apps.json
+            # Remove 'v' prefix from tag for the version string if it exists (e.g. 'v5.2b4' -> '5.2b4')
+            NEW_VERSION=${LATEST_TAG#v} 
+            # Extract date in YYYY-MM-DD format
+            NEW_DATE=$(echo "$LATEST_RELEASE" | jq -r .published_at | cut -d'T' -f1)
+            # Find the size of the .ipa asset
+            NEW_SIZE=$(echo "$LATEST_RELEASE" | jq -r '.assets[] | select(.name | endswith(".ipa")) | .size' | head -n 1)
+            
+            if [ -z "$NEW_SIZE" ] || [ "$NEW_SIZE" == "null" ]; then
+                # Fallback size if no ipa is found
+                NEW_SIZE=0 
+            fi
+            
+            echo "LATEST_TAG=$LATEST_TAG" >> $GITHUB_ENV
+            echo "NEW_VERSION=$NEW_VERSION" >> $GITHUB_ENV
+            echo "NEW_DATE=$NEW_DATE" >> $GITHUB_ENV
+            echo "NEW_SIZE=$NEW_SIZE" >> $GITHUB_ENV
+          fi
+
+      - name: Update apps.json
+        if: steps.check_release.outputs.run_update == 'true'
+        run: |
+          # Use jq to update the main app details and insert the new version into the 'versions' array
+          jq --arg version "${{ env.NEW_VERSION }}" \
+             --arg date "${{ env.NEW_DATE }}" \
+             --argjson size "${{ env.NEW_SIZE }}" \
+             '(.apps[] | select(.bundleIdentifier == "com.google.ios.youtube") | .version) = $version |
+              (.apps[] | select(.bundleIdentifier == "com.google.ios.youtube") | .versionDate) = $date |
+              (.apps[] | select(.bundleIdentifier == "com.google.ios.youtube") | .size) = $size |
+              (.apps[] | select(.bundleIdentifier == "com.google.ios.youtube") | .versions) |= [
+                {
+                  version: $version,
+                  date: $date,
+                  downloadURL: "https://api.heyfordy.de/ios/yt",
+                  size: $size
+                }
+              ] + .' apps.json > tmp.json && mv tmp.json apps.json
+          
+          echo "apps.json has been updated."
+
+      - name: Update yt-ver.txt and Commit
+        if: steps.check_release.outputs.run_update == 'true'
+        run: |
+          # Save the new tag to the tracking file
+          echo "${{ env.LATEST_TAG }}" > yt-ver.txt
+          
+          # Configure Git user for the automated commit
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Commit and push
+          git add apps.json yt-ver.txt
+          git commit -m "chore: Update YouTube+🗿 to version ${{ env.NEW_VERSION }}"
+          git push
