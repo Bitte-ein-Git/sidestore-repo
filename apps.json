@@ -117,20 +117,35 @@
           "date": "2026-02-27",
           "downloadURL": "https://api.heyfordy.de/ios/yt",
           "size": 125986241
-        },
+        }
+      ]
+    },
+    {
+      "name": "YT Music+🗿",
+      "bundleIdentifier": "com.google.ios.youtubemusic",
+      "developerName": "heyFordy",
+      "subtitle": "iOS YouTube Music Vanced experience.",
+      "version": "9.06.4",
+      "versionDate": "2026-02-27",
+      "size": 82598620,
+      "minOSVersion": "16.0",
+      "downloadURL": "https://github.com/Bitte-ein-Git/ios_ytmusic/releases/download/v2.3.1/FordyYTM_2.3.1.ipa",
+      "localizedDescription": "YouTube Music with tweaks for a better experience.",
+      "iconURL": "https://raw.githubusercontent.com/Bitte-ein-Git/ios_ytmusic/main/custom/icon.png",
+      "tintColor": "FF0000",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/Bitte-ein-Git/ios_ytmusic/main/Resources/scrn1.png",
+        "https://raw.githubusercontent.com/Bitte-ein-Git/ios_ytmusic/main/Resources/scrn2.png",
+        "https://raw.githubusercontent.com/Bitte-ein-Git/ios_ytmusic/main/Resources/scrn3.png",
+        "https://raw.githubusercontent.com/Bitte-ein-Git/ios_ytmusic/main/Resources/scrn4.png",
+        "https://raw.githubusercontent.com/Bitte-ein-Git/ios_ytmusic/main/Resources/scrn5.png"
+      ],
+      "versions": [
         {
-          "version": "5.2b4",
-          "date": "2026-02-26",
-          "downloadURL": "https://api.heyfordy.de/ios/yt",
-          "size": 122697907
-        },
-        {
-          "version": "5.2b3",
-          "date": "2025-09-07",
-          "localizedDescription": "First release — v5.2b3",
-          "downloadURL": "https://api.heyfordy.de/ios/yt",
-          "size": 122933534,
-          "minOSVersion": "16.0"
+          "version": "9.06.4",
+          "date": "2026-02-27",
+          "downloadURL": "https://github.com/Bitte-ein-Git/ios_ytmusic/releases/download/v2.3.1/FordyYTM_2.3.1.ipa",
+          "size": 82598620
         }
       ]
     },
