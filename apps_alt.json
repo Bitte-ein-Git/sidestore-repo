@@ -1,13 +1,13 @@
 {
   "name": "🗿 » Bitte ein Git! - Repo",
-  "subtitle": "🌀 Tweaked iOS Apps",
+  "subtitle": "🌀 Fordy's Tweaked iOS Apps",
   "identifier": "de.heyfordy.repo",
   "sourceURL": "https://bitte-ein-git.github.io/sidestore-repo/apps_alt.json",
   "website": "https://bitte-ein-git.github.io/sidestore-repo",
   "iconURL": "https://raw.githubusercontent.com/elias1731/hello/refs/heads/main/assets/icon.png",
   "headerURL": "https://raw.githubusercontent.com/elias1731/hello/main/assets/bg.png",
   "META": {
-    "repoName": "🗿 • heyFordy's Repo",
+    "repoName": "🗿 » Bitte ein Git! - Repo",
     "repoIcon": "https://raw.githubusercontent.com/elias1731/hello/refs/heads/main/assets/icon.png"
   },
   "apps": [
@@ -123,7 +123,7 @@
     {
       "name": "YT Music+🗿",
       "bundleIdentifier": "com.google.ios.youtubemusic",
-      "developerName": "heyFordy",
+      "developerName": "Bitte ein Git!",
       "subtitle": "iOS YouTube Music Vanced experience.",
       "version": "9.06.4",
       "versionDate": "2026-02-27",
