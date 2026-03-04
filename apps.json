@@ -92,9 +92,9 @@
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "heyFordy",
       "subtitle": "iOS YouTube Vanced experience.",
-      "version": "21.08.3",
-      "versionDate": "2026-02-27",
-      "size": 125986241,
+      "version": "21.09.2",
+      "versionDate": "2026-03-04",
+      "size": 126251785,
       "minOSVersion": "16.0",
       "downloadURL": "https://api.heyfordy.de/ios/yt",
       "localizedDescription": "YouTube with YTLitePlus and other tweaks for a better viewing experience.",
@@ -112,6 +112,12 @@
         "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/9.png"
       ],
       "versions": [
+        {
+          "version": "21.09.2",
+          "date": "2026-03-04",
+          "downloadURL": "https://api.heyfordy.de/ios/yt",
+          "size": 126251785
+        },
         {
           "version": "21.08.3",
           "date": "2026-02-27",
