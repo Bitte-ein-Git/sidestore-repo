@@ -2,8 +2,8 @@
   "name": "🗿 » heyFordy's Repo",
   "subtitle": "🌀 Tweaked iOS Apps",
   "identifier": "de.heyfordy.repo",
-  "sourceURL": "https://repo.heyfordy.de/apps.json",
-  "website": "https://repo.heyfordy.de",
+  "sourceURL": "https://repo.heyfordy.dev/apps.json",
+  "website": "https://repo.heyfordy.dev",
   "iconURL": "https://raw.githubusercontent.com/elias1731/hello/refs/heads/main/assets/icon.png",
   "headerURL": "https://raw.githubusercontent.com/elias1731/hello/main/assets/bg.png",
   "META": {
@@ -20,7 +20,7 @@
       "versionDate": "2026-01-27",
       "size": 85895992,
       "minOSVersion": "16.0",
-      "downloadURL": "https://api.heyfordy.de/ios/spot",
+      "downloadURL": "https://api.heyfordy.dev/ios/spot",
       "localizedDescription": "Spotify + custom 'EeveeSpotifyReborn'.",
       "iconURL": "https://raw.githubusercontent.com/Bitte-ein-Git/sidestore-repo/refs/heads/main/assets/spot.png",
       "tintColor": "1ED760",
@@ -75,13 +75,13 @@
           "version": "6.2.2",
           "date": "2026-01-27",
           "localizedDescription": "Updated version to 6.2.2",
-          "downloadURL": "https://api.heyfordy.de/ios/spot",
+          "downloadURL": "https://api.heyfordy.dev/ios/spot",
           "size": 85895992
         },
         {
           "version": "6.1.6",
           "date": "2025-09-11",
-          "downloadURL": "https://api.heyfordy.de/ios/spot",
+          "downloadURL": "https://api.heyfordy.dev/ios/spot",
           "size": 0,
           "minOSVersion": "16.0"
         }
@@ -96,7 +96,7 @@
       "versionDate": "2026-03-04",
       "size": 126251785,
       "minOSVersion": "16.0",
-      "downloadURL": "https://api.heyfordy.de/ios/yt",
+      "downloadURL": "https://api.heyfordy.dev/ios/yt",
       "localizedDescription": "YouTube with YTLitePlus and other tweaks for a better viewing experience.",
       "iconURL": "https://raw.githubusercontent.com/Bitte-ein-Git/ios_yt/main/custom/icon.png",
       "tintColor": "FF0000",
@@ -115,13 +115,13 @@
         {
           "version": "21.09.2",
           "date": "2026-03-04",
-          "downloadURL": "https://api.heyfordy.de/ios/yt",
+          "downloadURL": "https://api.heyfordy.dev/ios/yt",
           "size": 126251785
         },
         {
           "version": "21.08.3",
           "date": "2026-02-27",
-          "downloadURL": "https://api.heyfordy.de/ios/yt",
+          "downloadURL": "https://api.heyfordy.dev/ios/yt",
           "size": 125986241
         }
       ]

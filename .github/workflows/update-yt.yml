@@ -79,7 +79,7 @@ jobs:
                 {
                   version: $version,
                   date: $date,
-                  downloadURL: "https://api.heyfordy.de/ios/yt",
+                  downloadURL: "https://api.heyfordy.dev/ios/yt",
                   size: $size
                 }
               ] + .' apps.json > tmp.json && mv tmp.json apps.json

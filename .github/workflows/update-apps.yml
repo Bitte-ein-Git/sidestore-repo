@@ -63,12 +63,12 @@ jobs:
 
           # check for spotify update request
           if [ "${{ github.event.inputs.update_spotify }}" == "true" ]; then
-            update_app "com.spotify.client" "${{ github.event.inputs.spotify_version }}" "https://api.heyfordy.de/ios/spot"
+            update_app "com.spotify.client" "${{ github.event.inputs.spotify_version }}" "https://api.heyfordy.dev/ios/spot"
           fi
 
           # check for youtube update request
           if [ "${{ github.event.inputs.update_youtube }}" == "true" ]; then
-            update_app "com.google.ios.youtube" "${{ github.event.inputs.youtube_version }}" "https://api.heyfordy.de/ios/yt"
+            update_app "com.google.ios.youtube" "${{ github.event.inputs.youtube_version }}" "https://api.heyfordy.dev/ios/yt"
           fi
 
       - name: Commit and push changes

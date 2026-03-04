@@ -17,13 +17,13 @@
                     <key>kind</key>
                     <string>display-image</string>
                     <key>url</key>
-                    <string>https://repo.heyfordy.de/assets/storelogo.png</string>
+                    <string>https://repo.heyfordy.dev/assets/storelogo.png</string>
                 </dict>
                 <dict>
                     <key>kind</key>
                     <string>full-size-image</string>
                     <key>url</key>
-                    <string>https://repo.heyfordy.de/assets/storelogo.png</string>
+                    <string>https://repo.heyfordy.dev/assets/storelogo.png</string>
                 </dict>
             </array>
             <key>metadata</key>
