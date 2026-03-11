@@ -288,15 +288,6 @@
       "beta": false,
       "versions": [
         {
-          "version": "39.51",
-          "date": "2026-03-04T00:00:00.0000000Z",
-          "localizedDescription": "",
-          "downloadURL": "https://content-download-egs.distro.on.epicgames.com/iOS/Org/o-aa83a0a9bc45e98c80c1b1c9d92e9e/prod-fn/Fortnite/353077e0-008a-4817-8444-6065f654d48b/variant/a1f28374-dcb8-3f56-b3f3-b8fffd92128a.ipa",
-          "size": 3171637248,
-          "minOSVersion": "17.6",
-          "buildVersion": "51287196.3.4"
-        },
-        {
           "version": "36.00.1",
           "date": "2025-06-11T00:00:00.0000000Z",
           "localizedDescription": "",
@@ -364,15 +355,6 @@
       ],
       "beta": false,
       "versions": [
-        {
-          "version": "21.2.0",
-          "date": "2025-12-17T00:00:00.0000000Z",
-          "localizedDescription": "",
-          "downloadURL": "https://content-download-egs.distro.on.epicgames.com/iOS/Org/o-4m3t3rbr8yw4rpfdlb6yjppdf6ztbf/d42d7101bb7a41c09a810ee418b7d3d0/4c1e51b2a65b409198e8203171aa98fd/25d7a36c-f292-40ba-a3a2-21d5b51f0bb2/variant/6e505920-178c-339f-85c0-34bf1befbdf8.ipa",
-          "size": 2473801728,
-          "minOSVersion": "17.6",
-          "buildVersion": "7237"
-        },
         {
           "version": "19.0.0",
           "date": "2025-05-27T00:00:00.0000000Z",
