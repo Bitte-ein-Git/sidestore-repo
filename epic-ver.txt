@@ -1,0 +1,2 @@
+com.epicgames.FortniteGame: 39.51
+uk.co.mediatonic.fallguys: 21.2.0

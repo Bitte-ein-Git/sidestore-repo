@@ -1,4 +1,4 @@
-name: Update Apps
+name: "Manual update version in apps.json"
 on:
   workflow_dispatch:
     inputs:

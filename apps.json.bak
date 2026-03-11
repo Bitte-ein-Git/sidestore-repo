@@ -1,0 +1,289 @@
+{
+  "name": "🍻 » Bitte-ein-Git! Repo 🗿",
+  "subtitle": "🌀 heyFordy's App Collection",
+  "identifier": "dev.heyfordy.repo",
+  "sourceURL": "https://apps.heyfordy.dev/",
+  "website": "https://repo.heyfordy.dev/",
+  "iconURL": "https://raw.githubusercontent.com/elias1731/hello/refs/heads/main/assets/icon.png",
+  "headerURL": "https://raw.githubusercontent.com/elias1731/hello/main/assets/bg.png",
+  "META": {
+    "repoName": "🍻 » Bitte-ein-Git! Repo 🗿",
+    "repoIcon": "https://raw.githubusercontent.com/elias1731/hello/refs/heads/main/assets/icon.png"
+  },
+  "apps": [
+    {
+      "name": "Spotify+🗿",
+      "bundleIdentifier": "com.spotify.client",
+      "developerName": "heyFordy",
+      "subtitle": "Spotify • Ad-free / Premium Patch",
+      "version": "6.2.2",
+      "versionDate": "2026-01-27",
+      "size": 85895992,
+      "minOSVersion": "16.0",
+      "downloadURL": "https://api.heyfordy.dev/ios/spot",
+      "localizedDescription": "Spotify + custom 'EeveeSpotifyReborn'.",
+      "iconURL": "https://raw.githubusercontent.com/Bitte-ein-Git/sidestore-repo/refs/heads/main/assets/spot.png",
+      "tintColor": "1ED760",
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.applesignin",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.carplay-audio",
+          "com.apple.developer.game-center",
+          "com.apple.developer.group-session",
+          "com.apple.developer.healthkit",
+          "com.apple.developer.healthkit.access",
+          "com.apple.developer.networking.multicast",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.siri",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "This will let you play your imported music on Spotify.",
+          "NSBluetoothAlwaysUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
+          "NSBluetoothPeripheralUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
+          "NSCalendarsUsageDescription": "This lets Spotify view and add events to your calendar.",
+          "NSCalendarsWriteOnlyAccessUsageDescription": "This lets Spotify add events to your calendar.",
+          "NSCameraUsageDescription": "This lets you scan Spotify Codes.",
+          "NSContactsUsageDescription": "This lets Spotify access calendars you may have shared with your contacts.",
+          "NSFaceIDUsageDescription": "This lets you set access restrictions using Face ID.",
+          "NSHealthShareUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSHealthUpdateUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSLocalNetworkUsageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files.",
+          "NSMicrophoneUsageDescription": "This lets you control Spotify using your voice.",
+          "NSMotionUsageDescription": "We will use this to understand which audio motivates you most.",
+          "NSPhotoLibraryAddUsageDescription": "This lets you save images to your Photo Library.",
+          "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library.",
+          "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you."
+        }
+      },
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/Bitte-ein-Git/sidestore-repo/refs/heads/main/assets/FordySpot00.jpeg",
+        "https://raw.githubusercontent.com/Bitte-ein-Git/sidestore-repo/refs/heads/main/assets/FordySpot01.jpeg",
+        "https://raw.githubusercontent.com/Bitte-ein-Git/sidestore-repo/refs/heads/main/assets/FordySpot02.jpeg",
+        "https://raw.githubusercontent.com/Bitte-ein-Git/sidestore-repo/refs/heads/main/assets/FordySpot03.jpeg",
+        "https://raw.githubusercontent.com/Bitte-ein-Git/sidestore-repo/refs/heads/main/assets/FordySpot04.jpeg"
+      ],
+      "versions": [
+        {
+          "version": "6.2.2",
+          "date": "2026-01-27",
+          "localizedDescription": "Updated version to 6.2.2",
+          "downloadURL": "https://api.heyfordy.dev/ios/spot",
+          "size": 85895992
+        },
+        {
+          "version": "6.1.6",
+          "date": "2025-09-11",
+          "downloadURL": "https://api.heyfordy.dev/ios/spot",
+          "size": 0,
+          "minOSVersion": "16.0"
+        }
+      ]
+    },
+    {
+      "name": "YouTube+🗿",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "developerName": "heyFordy",
+      "subtitle": "iOS YouTube Vanced experience.",
+      "version": "21.09.2",
+      "versionDate": "2026-03-04",
+      "size": 126251785,
+      "minOSVersion": "16.0",
+      "downloadURL": "https://api.heyfordy.dev/ios/yt",
+      "localizedDescription": "YouTube with YTLitePlus and other tweaks for a better viewing experience.",
+      "iconURL": "https://raw.githubusercontent.com/Bitte-ein-Git/ios_yt/main/custom/icon.png",
+      "tintColor": "FF0000",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/1.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/2.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/3.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/4.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/5.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/6.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/7.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/8.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/9.png"
+      ],
+      "versions": [
+        {
+          "version": "21.09.2",
+          "date": "2026-03-04",
+          "downloadURL": "https://api.heyfordy.dev/ios/yt",
+          "size": 126251785
+        },
+        {
+          "version": "21.08.3",
+          "date": "2026-02-27",
+          "downloadURL": "https://api.heyfordy.dev/ios/yt",
+          "size": 125986241
+        }
+      ]
+    },
+    {
+      "name": "YT Music+🗿",
+      "bundleIdentifier": "com.google.ios.youtubemusic",
+      "developerName": "heyFordy",
+      "subtitle": "iOS YouTube Music Vanced experience.",
+      "version": "9.06.4",
+      "versionDate": "2026-02-27",
+      "size": 82598620,
+      "minOSVersion": "16.0",
+      "downloadURL": "https://github.com/Bitte-ein-Git/ios_ytmusic/releases/download/v2.3.1/FordyYTM_2.3.1.ipa",
+      "localizedDescription": "YouTube Music with tweaks for a better experience.",
+      "iconURL": "https://raw.githubusercontent.com/Bitte-ein-Git/ios_ytmusic/main/custom/icon.png",
+      "tintColor": "FF0000",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/Bitte-ein-Git/ios_ytmusic/main/Resources/scrn1.png",
+        "https://raw.githubusercontent.com/Bitte-ein-Git/ios_ytmusic/main/Resources/scrn2.png",
+        "https://raw.githubusercontent.com/Bitte-ein-Git/ios_ytmusic/main/Resources/scrn3.png",
+        "https://raw.githubusercontent.com/Bitte-ein-Git/ios_ytmusic/main/Resources/scrn4.png",
+        "https://raw.githubusercontent.com/Bitte-ein-Git/ios_ytmusic/main/Resources/scrn5.png"
+      ],
+      "versions": [
+        {
+          "version": "9.06.4",
+          "date": "2026-02-27",
+          "downloadURL": "https://github.com/Bitte-ein-Git/ios_ytmusic/releases/download/v2.3.1/FordyYTM_2.3.1.ipa",
+          "size": 82598620
+        }
+      ]
+    },
+    {
+      "beta": false,
+      "name": "LiveContainer+ 🗿",
+      "bundleIdentifier": "com.kdt.livecontainer",
+      "developerName": "LiveContainer Team",
+      "subtitle": "LiveContainer + SideStore",
+      "version": "3.7.2",
+      "versionDate": "2026-02-27",
+      "versionDescription": "> [!Warning]\r\n> The standalone version requires SideStore 0.6.2+ or AltStore 2.2.1+ for installation.\r\n> To install LiveContainer with built-in SideStore (LiveContainer+SideStore.ipa), please use [Impactor](https://github.com/khcrysalis/Impactor) or [iloader](https://github.com/nab138/iloader). See [our installation guide](https://livecontainer.github.io/docs/installation/lc_sidestore) for details.\r \n>[!Note]\r\n> This a minor release that solves the following issues in version 3.7.0 and adds the following features. For more information, please see [3.7.0 release note](https://github.com/LiveContainer/LiveContainer/releases/tag/3.7.0).\r \nBug Fixes\r \n• Fix an issue where built-in SideStore may freeze on launch (1158)\r\n• Fix the ipa of another LiveContainer not generating in LiveContainer+SideStore builds after SideStore's massive codebase change (1184)\r\n• Fix the new Launch App Shortcut does not work below iOS 18 (1159)\r\n• The Launch App Shortcut now reports meaningful errors\r\n• Fix crash when using external container in multitasking mode\r\n• Fix process hangs when debugging multitask private apps\r \nNew Features\r\n• The \"Tap top of the view to scroll to top\" action can be passed through to multitasking guest apps.",
+      "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.7.2/LiveContainer%2BSideStore.ipa",
+      "localizedDescription": "LiveContainer + SideStore",
+      "iconURL": "https://raw.githubusercontent.com/Bitte-ein-Git/sidestore-repo/refs/heads/main/assets/lc.png",
+      "tintColor": "0784FC",
+      "category": "utilities",
+      "size": 34811049,
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/screenshots/1.png"
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups",
+          "com.apple.developer.kernel.extended-virtual-addressing",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.developer.healthkit.background-delivery",
+          "com.apple.developer.healthkit",
+          "com.apple.developer.healthkit.access"
+        ],
+        "privacy": {
+          "LSRequiresIPhoneOS": "The guest app is requesting for this permission.",
+          "NFCReaderUsageDescription": "The guest app is requesting for this permission.",
+          "NSAppleMusicUsageDescription": "The guest app is requesting for this permission.",
+          "NSBluetoothAlwaysUsageDescription": "The guest app is requesting for this permission.",
+          "NSBluetoothPeripheralUsageDescription": "The guest app is requesting for this permission.",
+          "NSCalendarsFullAccessUsageDescription": "The guest app is requesting for this permission.",
+          "NSCalendarsWriteOnlyAccessUsageDescription": "The guest app is requesting for this permission.",
+          "NSCameraUsageDescription": "The guest app is requesting for this permission.",
+          "NSContactsUsageDescription": "The guest app is requesting for this permission.",
+          "NSFaceIDUsageDescription": "The guest app is requesting for this permission.",
+          "NSFallDetectionUsageDescription": "The guest app is requesting for this permission.",
+          "NSGKFriendListUsageDescription": "The guest app is requesting for this permission.",
+          "NSHealthClinicalHealthRecordsShareUsageDescription": "The guest app is requesting for this permission.",
+          "NSHealthRequiredReadAuthorizationTypeIdentifiers": "The guest app is requesting for this permission.",
+          "NSHomeKitUsageDescription": "The guest app is requesting for this permission.",
+          "NSIdentityUsageDescription": "The guest app is requesting for this permission.",
+          "NSLocalNetworkUsageDescription": "The guest app is requesting for this permission.",
+          "NSLocationDefaultAccuracyReduced": "The guest app is requesting for this permission.",
+          "NSLocationTemporaryUsageDescriptionDictionary": "The guest app is requesting for this permission.",
+          "NSLocationUsageDescription": "The guest app is requesting for this permission.",
+          "NSLocationWhenInUseUsageDescription": "The guest app is requesting for this permission.",
+          "NSMicrophoneUsageDescription": "The guest app is requesting for this permission.",
+          "NSMotionUsageDescription": "The guest app is requesting for this permission.",
+          "NSNearbyInteractionAllowOnceUsageDescription": "The guest app is requesting for this permission.",
+          "NSNearbyInteractionUsageDescription": "The guest app is requesting for this permission.",
+          "NSPhotoLibraryAddUsageDescription": "The guest app is requesting for this permission.",
+          "NSPhotoLibraryUsageDescription": "The guest app is requesting for this permission.",
+          "NSRemindersFullAccessUsageDescription": "The guest app is requesting for this permission.",
+          "NSSensorKitUsageDescription": "The guest app is requesting for this permission.",
+          "NSSiriUsageDescription": "The guest app is requesting for this permission.",
+          "NSSpeechRecognitionUsageDescription": "The guest app is requesting for this permission.",
+          "NSUserTrackingUsageDescription": "The guest app is requesting for this permission.",
+          "SBAppUsesLocalNotifications": "The guest app is requesting for this permission.",
+          "UIApplicationSceneManifest": "The guest app is requesting for this permission.",
+          "NSHealthUpdateUsageDescription": "The guest app is requesting for this permission.",
+          "NSHealthShareUsageDescription": "The guest app is requesting for this permission.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "The guest app is requesting for this permission."
+        }
+      },
+      "versions": [
+        {
+          "version": "3.7.2",
+          "date": "2026-02-27",
+          "localizedDescription": "> [!Warning]\r\n> The standalone version requires SideStore 0.6.2+ or AltStore 2.2.1+ for installation.\r\n> To install LiveContainer with built-in SideStore (LiveContainer+SideStore.ipa), please use [Impactor](https://github.com/khcrysalis/Impactor) or [iloader](https://github.com/nab138/iloader). See [our installation guide](https://livecontainer.github.io/docs/installation/lc_sidestore) for details.\r \n>[!Note]\r\n> This a minor release that solves the following issues in version 3.7.0 and adds the following features. For more information, please see [3.7.0 release note](https://github.com/LiveContainer/LiveContainer/releases/tag/3.7.0).\r \nBug Fixes\r \n• Fix an issue where built-in SideStore may freeze on launch (1158)\r\n• Fix the ipa of another LiveContainer not generating in LiveContainer+SideStore builds after SideStore's massive codebase change (1184)\r\n• Fix the new Launch App Shortcut does not work below iOS 18 (1159)\r\n• The Launch App Shortcut now reports meaningful errors\r\n• Fix crash when using external container in multitasking mode\r\n• Fix process hangs when debugging multitask private apps\r \nNew Features\r\n• The \"Tap top of the view to scroll to top\" action can be passed through to multitasking guest apps.",
+          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.7.2/LiveContainer%2BSideStore.ipa",
+          "size": 34811049
+        }
+      ]
+    },
+    {
+      "name": "Fortnite",
+      "bundleIdentifier": "com.epicgames.FortniteGame",
+      "developerName": "Epic Games Sweden AB",
+      "subtitle": "Official Fortnite by Epic",
+      "localizedDescription": "The future of Fortnite is here. Be the last player standing in Battle Royale and Zero Build, explore and survive in LEGO Fortnite, blast to the finish with Rocket Racing or headline a concert with Fortnite Festival. Play thousands of free creator made islands with friends including deathruns, tycoons, racing, zombie survival and more! Join the creator community and build your own island with Unreal Editor for Fortnite (UEFN) or Fortnite Creative tools. Each Fortnite island has an individual age rating so you can find the one that's right for you and your friends. Find it all in Fortnite! Fortnite requires an internet connection and supports iPhone 11 or later and iPads with at least 4GB of RAM.",
+      "iconURL": "https://cdn1.epicgames.com/item/fn/FN_Logo_512x512_1024x1024-0a19a924e7f61249ab0c76569abfdc31",
+      "tintColor": "818181",
+      "beta": false,
+      "version": "39.51",
+      "versionDate": "2026-03-04",
+      "size": 3171637248,
+      "downloadURL": "https://content-download-egs.distro.on.epicgames.com/iOS/Org/o-aa83a0a9bc45e98c80c1b1c9d92e9e/prod-fn/Fortnite/353077e0-008a-4817-8444-6065f654d48b/variant/a1f28374-dcb8-3f56-b3f3-b8fffd92128a.ipa",
+      "minOSVersion": "17.6",
+      "versions": [
+        {
+          "version": "39.51",
+          "date": "2026-03-04",
+          "localizedDescription": "",
+          "downloadURL": "https://content-download-egs.distro.on.epicgames.com/iOS/Org/o-aa83a0a9bc45e98c80c1b1c9d92e9e/prod-fn/Fortnite/353077e0-008a-4817-8444-6065f654d48b/variant/a1f28374-dcb8-3f56-b3f3-b8fffd92128a.ipa",
+          "size": 3171637248,
+          "minOSVersion": "17.6"
+        }
+      ]
+    },
+    {
+      "name": "Fall Guys",
+      "bundleIdentifier": "uk.co.mediatonic.fallguys",
+      "developerName": "Mediatonic, Ltd.",
+      "subtitle": "Official Fall Guys by Epic",
+      "localizedDescription": "Jump into a massive-multiplayer party royale with Fall Guys and be the last Bean standing that takes the Crown. Enter the Blunderdome for a free for all platformer game that invites chaos and high-concentrated fun. Competitive & Cooperative: Tumble between competitive free-for-alls and cooperative challenges—or take on the Blunderdome with up to 3 friends! Play with Friends: Fall Guys supports cross-play, cross-platform parties and cross-progression via your Epic Games Account. Ever-Evolving Content: Play stays fresh with new collabs and game updates which bring new Costumes, Obstacles, and ways to play. Gloriously Customizable: Choose from a multitude of Colors, Patterns, Costumes and Nameplates. Relish wins with extravagant Celebrations and share your flair with Emotes! Fall Guys requires an internet connection and supports iPhone 11 or later and iPads with at least 4GB of RAM.",
+      "iconURL": "https://cdn1.epicgames.com/item/50118b7f954e450f8823df1614b24e80/iOS-New-512x512_512x512-ff4ce9348fe2142316cb4434228d78eb",
+      "tintColor": "818181",
+      "beta": false,
+      "version": "21.2.0",
+      "versionDate": "2026-02-25",
+      "size": 2474608640,
+      "downloadURL": "https://content-download-egs.distro.on.epicgames.com/iOS/Org/o-4m3t3rbr8yw4rpfdlb6yjppdf6ztbf/d42d7101bb7a41c09a810ee418b7d3d0/4c1e51b2a65b409198e8203171aa98fd/25d7a36c-f292-40ba-a3a2-21d5b51f0bb2/variant/6e505920-178c-339f-85c0-34bf1befbdf8.ipa",
+      "minOSVersion": "17.6",
+      "versions": [
+        {
+          "version": "21.2.0",
+          "date": "2026-02-25",
+          "localizedDescription": "",
+          "downloadURL": "https://content-download-egs.distro.on.epicgames.com/iOS/Org/o-4m3t3rbr8yw4rpfdlb6yjppdf6ztbf/d42d7101bb7a41c09a810ee418b7d3d0/4c1e51b2a65b409198e8203171aa98fd/25d7a36c-f292-40ba-a3a2-21d5b51f0bb2/variant/6e505920-178c-339f-85c0-34bf1befbdf8.ipa",
+          "size": 2474608640,
+          "minOSVersion": "17.6"
+        }
+      ]
+    }
+  ]
+}
