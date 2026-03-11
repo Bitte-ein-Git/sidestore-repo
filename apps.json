@@ -16,7 +16,6 @@
     {
       "name": "Spotify+🗿",
       "bundleIdentifier": "com.spotify.client",
-      "marketplaceID": "",
       "developerName": "heyFordy",
       "subtitle": "Spotify • Ad-free / Premium Patch",
       "localizedDescription": "Spotify + custom 'EeveeSpotifyReborn'.",
@@ -36,9 +35,7 @@
           "date": "2026-01-27",
           "localizedDescription": "Updated version to 6.2.2",
           "downloadURL": "https://api.heyfordy.dev/ios/spot",
-          "size": 85895992,
-          "buildVersion": null,
-          "minOSVersion": null
+          "size": 85895992
         },
         {
           "version": "6.1.6",
@@ -94,7 +91,6 @@
     {
       "name": "YouTube+🗿",
       "bundleIdentifier": "com.google.ios.youtube",
-      "marketplaceID": "",
       "developerName": "heyFordy",
       "subtitle": "iOS YouTube Vanced experience.",
       "localizedDescription": "YouTube with YTLitePlus and other tweaks for a better viewing experience.",
@@ -118,18 +114,14 @@
           "date": "2026-03-04T00:00:00+01:00",
           "localizedDescription": "New release",
           "downloadURL": "https://api.heyfordy.dev/ios/yt",
-          "size": 126300000,
-          "buildVersion": null,
-          "minOSVersion": null
+          "size": 126300000
         },
         {
           "version": "21.08.3",
           "date": "2026-02-27T00:00:00+01:00",
           "localizedDescription": "",
           "downloadURL": "https://api.heyfordy.dev/ios/yt",
-          "size": 126000000,
-          "buildVersion": null,
-          "minOSVersion": null
+          "size": 126000000
         }
       ],
       "appPermissions": {
@@ -141,7 +133,6 @@
     {
       "name": "YT Music+🗿",
       "bundleIdentifier": "com.google.ios.youtubemusic",
-      "marketplaceID": "",
       "developerName": "heyFordy",
       "subtitle": "iOS YouTube Music Vanced experience.",
       "localizedDescription": "YouTube Music with tweaks for a better experience.",
@@ -161,9 +152,7 @@
           "date": "2026-02-27T00:00:00+01:00",
           "localizedDescription": "Added to repo !",
           "downloadURL": "https://github.com/Bitte-ein-Git/ios_ytmusic/releases/download/v2.3.1/FordyYTM_2.3.1.ipa",
-          "size": 82600000,
-          "buildVersion": null,
-          "minOSVersion": null
+          "size": 82600000
         }
       ],
       "appPermissions": {
@@ -175,7 +164,6 @@
     {
       "name": "LiveContainer+ 🗿",
       "bundleIdentifier": "com.kdt.livecontainer",
-      "marketplaceID": "",
       "developerName": "LiveContainer Team",
       "subtitle": "LiveContainer + SideStore",
       "localizedDescription": "LiveContainer & built-in SideStore",
@@ -191,9 +179,7 @@
           "date": "2026-02-27T00:00:00+01:00",
           "localizedDescription": "> [!Warning]\r\n> The standalone version requires SideStore 0.6.2+ or AltStore 2.2.1+ for installation.\r\n> To install LiveContainer with built-in SideStore (LiveContainer+SideStore.ipa), please use [Impactor](https://github.com/khcrysalis/Impactor) or [iloader](https://github.com/nab138/iloader). See [our installation guide](https://livecontainer.github.io/docs/installation/lc_sidestore) for details.\r \n>[!Note]\r\n> This a minor release that solves the following issues in version 3.7.0 and adds the following features. For more information, please see [3.7.0 release note](https://github.com/LiveContainer/LiveContainer/releases/tag/3.7.0).\r \nBug Fixes\r \n• Fix an issue where built-in SideStore may freeze on launch (1158)\r\n• Fix the ipa of another LiveContainer not generating in LiveContainer+SideStore builds after SideStore's massive codebase change (1184)\r\n• Fix the new Launch App Shortcut does not work below iOS 18 (1159)\r\n• The Launch App Shortcut now reports meaningful errors\r\n• Fix crash when using external container in multitasking mode\r\n• Fix process hangs when debugging multitask private apps\r \nNew Features\r\n• The \"Tap top of the view to scroll to top\" action can be passed through to multitasking guest apps.",
           "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.7.2/LiveContainer%2BSideStore.ipa",
-          "size": 34800000,
-          "buildVersion": null,
-          "minOSVersion": null
+          "size": 34800000
         }
       ],
       "appPermissions": {
@@ -251,40 +237,152 @@
       "patreon": {}
     },
     {
-      "name": "Fall Guys🗿",
-      "bundleIdentifier": "uk.co.mediatonic.fallguys",
-      "marketplaceID": "",
-      "developerName": "Mediatonic, Ltd.",
-      "subtitle": "Official Fall Guys by Epic",
-      "localizedDescription": "Jump into a massive-multiplayer party royale with Fall Guys and be the last Bean standing.",
-      "iconURL": "https://repo.heyfordy.dev/assets/epicFG.png",
-      "tintColor": "#00BFF3",
-      "category": "games",
-      "screenshots": [],
-      "versions": [],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
+      "name": "Fortnite",
+      "bundleIdentifier": "com.epicgames.FortniteGame",
+      "developerName": "Epic Games Sweden AB",
+      "subtitle": "Official Fortnite by Epic",
+      "localizedDescription": "The future of Fortnite is here. Be the last player standing in Battle Royale and Zero Build, explore and survive in LEGO Fortnite, blast to the finish with Rocket Racing or headline a concert with Fortnite Festival. Play thousands of free creator made islands with friends including deathruns, tycoons, racing, zombie survival and more! Join the creator community and build your own island with Unreal Editor for Fortnite (UEFN) or Fortnite Creative tools. Each Fortnite island has an individual age rating so you can find the one that's right for you and your friends. Find it all in Fortnite! Fortnite requires an internet connection and supports iPhone 11 or later and iPads with at least 4GB of RAM.",
+      "_localizedDescriptions": {
+        "en": "The future of Fortnite is here. Be the last player standing in Battle Royale and Zero Build, explore and survive in LEGO Fortnite, blast to the finish with Rocket Racing or headline a concert with Fortnite Festival. Play thousands of free creator made islands with friends including deathruns, tycoons, racing, zombie survival and more! Join the creator community and build your own island with Unreal Editor for Fortnite (UEFN) or Fortnite Creative tools. Each Fortnite island has an individual age rating so you can find the one that's right for you and your friends. Find it all in Fortnite! Fortnite requires an internet connection and supports iPhone 11 or later and iPads with at least 4GB of RAM.",
+        "de": "Die Zukunft von Fortnite ist da. Überlebe bis zuletzt in Battle Royale und Null Bauen, erkunde und überlebe in LEGO Fortnite, rase bis zur Ziellinie in Rocket Racing oder gib ein Konzert mit Fortnite Festival. Spiele Tausende kostenlose, von Creators erstellte Inseln mit Freunden, darunter Deathruns, Tycoon-Spiele, Rennspiele, Zombie-Survival und mehr! Werde Teil der Creator-Community und erstelle deine eigene Insel mit Unreal Editor für Fortnite (UEFN) oder den Werkzeugen des Fortnite-Kreativmodus. Jede Fortnite-Insel verfügt über eine eigene Alterseinstufung, sodass du genau die finden kannst, die zu dir und deinen Freunden passt. All das erwartet dich in Fortnite! Fortnite erfordert eine Internetverbindung und unterstützt iPhone 11 oder neuer und iPads mit mindestens 4 GB RAM."
       },
-      "patreon": {}
+      "appPermissions": {
+          "entitlements": [
+              "com.apple.security.application-groups",
+              "com.apple.developer.siri",
+              "com.apple.developer.associated-domains",
+              "com.apple.developer.kernel.extended-virtual-addressing",
+              "com.apple.developer.kernel.increased-memory-limit",
+              "aps-environment"
+          ],
+           "privacy": {
+              "NSMicrophoneUsageDescription": "App uses the microphone for voice chat.",
+              "NSCameraUsageDescription": "App uses the camera."
+          }
+      },
+      "iconURL": "http://repo.heyfordy.dev/assets/epicFN.png",
+      "tintColor": "#7724FA",
+      "category": "games",
+      "screenshots": [
+        {
+          "imageURL": "https://cdn1.epicgames.com/item/fn/FNBR_CH5S4_Logo_2688x1440_2688x1440-5ddfe90e9330b9c6406d8413f0f74623",
+          "width": 2688,
+          "height": 1440
+        },
+        {
+          "imageURL": "https://cdn1.epicgames.com/item/fn/FNJN_BattleBus_KeyArt_DiscoveryTile_2688x1440_2688x1440-19f8d06c96c372915d4494020f42e6e7",
+          "width": 2688,
+          "height": 1440
+        },
+        {
+          "imageURL": "https://cdn1.epicgames.com/item/fn/FNSP_05_MobileScreen_2688x1440_2688x1440-ccb8f89255a077ba448debc17aa6c500",
+          "width": 2688,
+          "height": 1440
+        },
+        {
+          "imageURL": "https://cdn1.epicgames.com/item/fn/RR_Inferno_Island_Key_Art_RR_2688x1440_2688x1440-22ff07c036e235f49f69dd92d933beba",
+          "width": 2688,
+          "height": 1440
+        }
+      ],
+      "beta": false,
+      "versions": [
+        {
+          "version": "39.51",
+          "date": "2026-03-04T00:00:00.0000000Z",
+          "localizedDescription": "",
+          "downloadURL": "https://content-download-egs.distro.on.epicgames.com/iOS/Org/o-aa83a0a9bc45e98c80c1b1c9d92e9e/prod-fn/Fortnite/353077e0-008a-4817-8444-6065f654d48b/variant/a1f28374-dcb8-3f56-b3f3-b8fffd92128a.ipa",
+          "size": 3171637248,
+          "minOSVersion": "17.6",
+          "buildVersion": "51287196.3.4"
+        },
+        {
+          "version": "36.00.1",
+          "date": "2025-06-11T00:00:00.0000000Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/Romain-Pl/EpicGamesIPA/releases/download/FortniteUpdate36.00.1/FortniteClient-IOS-Shipping_36.00.1.ipa",
+          "size": 514957312,
+          "minOSVersion": "17.6",
+          "buildVersion": "43339410.3.4"
+        }
+      ]
     },
     {
-      "name": "Fortnite🗿",
-      "bundleIdentifier": "com.epicgames.fortnite",
-      "marketplaceID": "",
-      "developerName": "Epic Games",
-      "subtitle": "Official Fortnite by Epic",
-      "localizedDescription": "Fortnite Battle Royale on iOS.",
-      "iconURL": "https://repo.heyfordy.dev/assets/epicFN.png",
-      "tintColor": "#7B61FF",
+      "name": "Fall Guys",
+      "bundleIdentifier": "uk.co.mediatonic.fallguys",
+      "developerName": "Mediatonic, Ltd.",
+      "subtitle": "Official Fall Guys by Epic",
       "category": "games",
-      "screenshots": [],
-      "versions": [],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
+      "localizedDescription": "Jump into a massive-multiplayer party royale with Fall Guys and be the last Bean standing that takes the Crown. Enter the Blunderdome for a free for all platformer game that invites chaos and high-concentrated fun. Competitive & Cooperative: Tumble between competitive free-for-alls and cooperative challenges—or take on the Blunderdome with up to 3 friends! Play with Friends: Fall Guys supports cross-play, cross-platform parties and cross-progression via your Epic Games Account. Ever-Evolving Content: Play stays fresh with new collabs and game updates which bring new Costumes, Obstacles, and ways to play. Gloriously Customizable: Choose from a multitude of Colors, Patterns, Costumes and Nameplates. Relish wins with extravagant Celebrations and share your flair with Emotes! Fall Guys requires an internet connection and supports iPhone 11 or later and iPads with at least 4GB of RAM.",
+      "_localizedDescriptions": {
+        "en": "Jump into a massive-multiplayer party royale with Fall Guys and be the last Bean standing that takes the Crown. Enter the Blunderdome for a free for all platformer game that invites chaos and high-concentrated fun. Competitive & Cooperative: Tumble between competitive free-for-alls and cooperative challenges—or take on the Blunderdome with up to 3 friends! Play with Friends: Fall Guys supports cross-play, cross-platform parties and cross-progression via your Epic Games Account. Ever-Evolving Content: Play stays fresh with new collabs and game updates which bring new Costumes, Obstacles, and ways to play. Gloriously Customizable: Choose from a multitude of Colors, Patterns, Costumes and Nameplates. Relish wins with extravagant Celebrations and share your flair with Emotes! Fall Guys requires an internet connection and supports iPhone 11 or later and iPads with at least 4GB of RAM.",
+        "de": "Stürz dich in ein massives Multiplayer-Party-Royale-Spiel und hol dir als beste Bohne deine wohlverdiente Krone. Betritt die Stolperhalle dieses kostenlosen Spiels für alle Plattformen und erlebe pures Chaos und hochkonzentrierten Spaß. Wettkampf und Koop: Purzle zwischen allgemeinem Getümmel und Koop-Herausforderungen hin und her oder stürme die Stolperhalle mit bis zu 3 Freunden! Spiele mit Freunden: Fall Guys unterstützt mithilfe deines Epic Games-Kontos Crossplay und plattformübergreifende Gruppen und Fortschritte. Fortlaufend neue Inhalte: Durch erfrischende Gemeinschaftsprojekte und Spiel-Updates mit neuen Kostümen, Hindernissen und Spielarten wird es nie langweilig. Herrlich anpassbar: Wähle aus einer Fülle von Farben, Mustern, Kostümen und Namensschildern. Feiere Siege mit ausschweifendem Jubel und betone mit Emotes dein Talent! Fall Guys erfordert eine Internetverbindung und unterstützt iPhone 11 oder neuer und iPads mit mindestens 4 GB RAM."
       },
-      "patreon": {}
+      "appPermissions": {
+           "privacy": {
+              "NSMicrophoneUsageDescription": "App uses the microphone for voice chat."
+          }
+      },
+      "iconURL": "http://repo.heyfordy.dev/assets/epicFG.png",
+      "tintColor": "#00BFF3",
+      "screenshots": [
+        {
+          "imageURL": "https://cdn1.epicgames.com/item/50118b7f954e450f8823df1614b24e80/Screenshot11_2556x1179-006efb2712f584d8a018a29d3f16f360",
+          "width": 2556,
+          "height": 1179
+        },
+        {
+          "imageURL": "https://cdn1.epicgames.com/item/50118b7f954e450f8823df1614b24e80/Screenshot4_2556x1179-49c5241432d626e0a937d6f6b8306d16",
+          "width": 2556,
+          "height": 1179
+        },
+        {
+          "imageURL": "https://cdn1.epicgames.com/item/50118b7f954e450f8823df1614b24e80/Screenshot51_2556x1179-22654008650c9b6000106aa49ec94b46",
+          "width": 2556,
+          "height": 1179
+        },
+        {
+          "imageURL": "https://cdn1.epicgames.com/item/50118b7f954e450f8823df1614b24e80/Screenshot61_2556x1179-3060afccde2e596bb115b0507111cc8b",
+          "width": 2556,
+          "height": 1179
+        },
+        {
+          "imageURL": "https://cdn1.epicgames.com/item/50118b7f954e450f8823df1614b24e80/Screenshot71_2556x1179-983b8acbda9ab639dc69a67c5eb3e618",
+          "width": 2556,
+          "height": 1179
+        },
+        {
+          "imageURL": "https://cdn1.epicgames.com/item/50118b7f954e450f8823df1614b24e80/Screenshot21_2556x1179-ae1821ce5a0add1d4794a73317dbf172",
+          "width": 2556,
+          "height": 1179
+        },
+        {
+          "imageURL": "https://cdn1.epicgames.com/item/50118b7f954e450f8823df1614b24e80/Screenshot31_2556x1179-e9141c407999996fc17ab8751570891d",
+          "width": 2556,
+          "height": 1179
+        }
+      ],
+      "beta": false,
+      "versions": [
+        {
+          "version": "21.2.0",
+          "date": "2025-12-17T00:00:00.0000000Z",
+          "localizedDescription": "",
+          "downloadURL": "https://content-download-egs.distro.on.epicgames.com/iOS/Org/o-4m3t3rbr8yw4rpfdlb6yjppdf6ztbf/d42d7101bb7a41c09a810ee418b7d3d0/4c1e51b2a65b409198e8203171aa98fd/25d7a36c-f292-40ba-a3a2-21d5b51f0bb2/variant/6e505920-178c-339f-85c0-34bf1befbdf8.ipa",
+          "size": 2473801728,
+          "minOSVersion": "17.6",
+          "buildVersion": "7237"
+        },
+        {
+          "version": "19.0.0",
+          "date": "2025-05-27T00:00:00.0000000Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/ChuteSpyro/EpicGamesIPA/releases/download/FallGuysUpdate19.0.0/FallGuys_19.0.0.ipa",
+          "size": 2134734848,
+          "minOSVersion": "17.6",
+          "buildVersion": "6349"
+        }
+      ]
     }
   ],
   "news": [
