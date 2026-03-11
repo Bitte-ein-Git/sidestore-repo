@@ -1,0 +1,55 @@
+name: "📦• Repackage IPA"
+
+on:
+  workflow_dispatch:
+    inputs:
+      ipa_url:
+        description: "Source IPA URL"
+        required: true
+        type: string
+      app_name:
+        description: "New App Name"
+        required: true
+        type: string
+      bundle_id:
+        description: "New Bundle ID"
+        required: true
+        type: string
+      icon_url:
+        description: "Icon PNG URL"
+        required: true
+        type: string
+
+jobs:
+  repackage:
+    runs-on: macos-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download IPA and Icon
+        run: |
+          curl -L "${{ inputs.ipa_url }}" -o source.ipa
+          curl -L "${{ inputs.icon_url }}" -o custom_icon.png
+
+      - name: Install Cyan and dependencies
+        run: |
+          pipx install --force https://github.com/asdfzxcvbn/pyzule-rw/archive/main.zip
+          pipx inject cyan Pillow
+
+      - name: Inject Custom Name, Bundle ID and Icon via Cyan
+        run: |
+          # Use Cyan to modify the IPA directly
+          cyan -i source.ipa -o "${{ inputs.app_name }}.ipa" -k custom_icon.png -n "${{ inputs.app_name }}" -b "${{ inputs.bundle_id }}"
+
+      - name: Upload to Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.bundle_id }}
+          name: ${{ inputs.app_name }}
+          files: "${{ inputs.app_name }}.ipa"
+          body: "Automated repackage of ${{ inputs.app_name }} (${{ inputs.bundle_id }}) via Cyan"
+          make_latest: true
