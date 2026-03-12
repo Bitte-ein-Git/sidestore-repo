@@ -162,25 +162,22 @@
       "patreon": {}
     },
     {
+      "beta": false,
       "name": "LiveContainer+ 🗿",
       "bundleIdentifier": "com.kdt.livecontainer",
       "developerName": "LiveContainer Team",
       "subtitle": "LiveContainer + SideStore",
-      "localizedDescription": "LiveContainer & built-in SideStore",
+      "version": "3.7.2",
+      "versionDate": "2026-02-27",
+      "versionDescription": "> [!Warning]\r\n> The standalone version requires SideStore 0.6.2+ or AltStore 2.2.1+ for installation.\r\n> To install LiveContainer with built-in SideStore (LiveContainer+SideStore.ipa), please use [Impactor](https://github.com/khcrysalis/Impactor) or [iloader](https://github.com/nab138/iloader). See [our installation guide](https://livecontainer.github.io/docs/installation/lc_sidestore) for details.\r \n>[!Note]\r\n> This a minor release that solves the following issues in version 3.7.0 and adds the following features. For more information, please see [3.7.0 release note](https://github.com/LiveContainer/LiveContainer/releases/tag/3.7.0).\r \nBug Fixes\r \n• Fix an issue where built-in SideStore may freeze on launch (1158)\r\n• Fix the ipa of another LiveContainer not generating in LiveContainer+SideStore builds after SideStore's massive codebase change (1184)\r\n• Fix the new Launch App Shortcut does not work below iOS 18 (1159)\r\n• The Launch App Shortcut now reports meaningful errors\r\n• Fix crash when using external container in multitasking mode\r\n• Fix process hangs when debugging multitask private apps\r \nNew Features\r\n• The \"Tap top of the view to scroll to top\" action can be passed through to multitasking guest apps.",
+      "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.7.2/LiveContainer%2BSideStore.ipa",
+      "localizedDescription": "Run iOS apps without actually installing them!",
       "iconURL": "http://repo.heyfordy.dev/assets/lc.png",
-      "tintColor": "#FFB003",
+      "tintColor": "#0784FC",
       "category": "utilities",
-      "screenshots": [
+      "size": 34811049,
+      "screenshotURLs": [
         "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/screenshots/1.png"
-      ],
-      "versions": [
-        {
-          "version": "3.7.2",
-          "date": "2026-02-27T00:00:00+01:00",
-          "localizedDescription": "> [!Warning]\r\n> The standalone version requires SideStore 0.6.2+ or AltStore 2.2.1+ for installation.\r\n> To install LiveContainer with built-in SideStore (LiveContainer+SideStore.ipa), please use [Impactor](https://github.com/khcrysalis/Impactor) or [iloader](https://github.com/nab138/iloader). See [our installation guide](https://livecontainer.github.io/docs/installation/lc_sidestore) for details.\r \n>[!Note]\r\n> This a minor release that solves the following issues in version 3.7.0 and adds the following features. For more information, please see [3.7.0 release note](https://github.com/LiveContainer/LiveContainer/releases/tag/3.7.0).\r \nBug Fixes\r \n• Fix an issue where built-in SideStore may freeze on launch (1158)\r\n• Fix the ipa of another LiveContainer not generating in LiveContainer+SideStore builds after SideStore's massive codebase change (1184)\r\n• Fix the new Launch App Shortcut does not work below iOS 18 (1159)\r\n• The Launch App Shortcut now reports meaningful errors\r\n• Fix crash when using external container in multitasking mode\r\n• Fix process hangs when debugging multitask private apps\r \nNew Features\r\n• The \"Tap top of the view to scroll to top\" action can be passed through to multitasking guest apps.",
-          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.7.2/LiveContainer%2BSideStore.ipa",
-          "size": 34800000
-        }
       ],
       "appPermissions": {
         "entitlements": [
@@ -234,7 +231,15 @@
           "NSLocationAlwaysAndWhenInUseUsageDescription": "The guest app is requesting for this permission."
         }
       },
-      "patreon": {}
+      "versions": [
+        {
+          "version": "3.7.2",
+          "date": "2026-02-27",
+          "localizedDescription": "> [!Warning]\r\n> The standalone version requires SideStore 0.6.2+ or AltStore 2.2.1+ for installation.\r\n> To install LiveContainer with built-in SideStore (LiveContainer+SideStore.ipa), please use [Impactor](https://github.com/khcrysalis/Impactor) or [iloader](https://github.com/nab138/iloader). See [our installation guide](https://livecontainer.github.io/docs/installation/lc_sidestore) for details.\r \n>[!Note]\r\n> This a minor release that solves the following issues in version 3.7.0 and adds the following features. For more information, please see [3.7.0 release note](https://github.com/LiveContainer/LiveContainer/releases/tag/3.7.0).\r \nBug Fixes\r \n• Fix an issue where built-in SideStore may freeze on launch (1158)\r\n• Fix the ipa of another LiveContainer not generating in LiveContainer+SideStore builds after SideStore's massive codebase change (1184)\r\n• Fix the new Launch App Shortcut does not work below iOS 18 (1159)\r\n• The Launch App Shortcut now reports meaningful errors\r\n• Fix crash when using external container in multitasking mode\r\n• Fix process hangs when debugging multitask private apps\r \nNew Features\r\n• The \"Tap top of the view to scroll to top\" action can be passed through to multitasking guest apps.",
+          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.7.2/LiveContainer%2BSideStore.ipa",
+          "size": 34811049
+        }
+      ]
     },
     {
       "name": "Fortnite",
@@ -247,18 +252,18 @@
         "de": "Die Zukunft von Fortnite ist da. Überlebe bis zuletzt in Battle Royale und Null Bauen, erkunde und überlebe in LEGO Fortnite, rase bis zur Ziellinie in Rocket Racing oder gib ein Konzert mit Fortnite Festival. Spiele Tausende kostenlose, von Creators erstellte Inseln mit Freunden, darunter Deathruns, Tycoon-Spiele, Rennspiele, Zombie-Survival und mehr! Werde Teil der Creator-Community und erstelle deine eigene Insel mit Unreal Editor für Fortnite (UEFN) oder den Werkzeugen des Fortnite-Kreativmodus. Jede Fortnite-Insel verfügt über eine eigene Alterseinstufung, sodass du genau die finden kannst, die zu dir und deinen Freunden passt. All das erwartet dich in Fortnite! Fortnite erfordert eine Internetverbindung und unterstützt iPhone 11 oder neuer und iPads mit mindestens 4 GB RAM."
       },
       "appPermissions": {
-          "entitlements": [
-              "com.apple.security.application-groups",
-              "com.apple.developer.siri",
-              "com.apple.developer.associated-domains",
-              "com.apple.developer.kernel.extended-virtual-addressing",
-              "com.apple.developer.kernel.increased-memory-limit",
-              "aps-environment"
-          ],
-           "privacy": {
-              "NSMicrophoneUsageDescription": "App uses the microphone for voice chat.",
-              "NSCameraUsageDescription": "App uses the camera."
-          }
+        "entitlements": [
+          "com.apple.security.application-groups",
+          "com.apple.developer.siri",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.kernel.extended-virtual-addressing",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "aps-environment"
+        ],
+        "privacy": {
+          "NSMicrophoneUsageDescription": "App uses the microphone for voice chat.",
+          "NSCameraUsageDescription": "App uses the camera."
+        }
       },
       "iconURL": "http://repo.heyfordy.dev/assets/epicFN.png",
       "tintColor": "#7724FA",
@@ -310,9 +315,9 @@
         "de": "Stürz dich in ein massives Multiplayer-Party-Royale-Spiel und hol dir als beste Bohne deine wohlverdiente Krone. Betritt die Stolperhalle dieses kostenlosen Spiels für alle Plattformen und erlebe pures Chaos und hochkonzentrierten Spaß. Wettkampf und Koop: Purzle zwischen allgemeinem Getümmel und Koop-Herausforderungen hin und her oder stürme die Stolperhalle mit bis zu 3 Freunden! Spiele mit Freunden: Fall Guys unterstützt mithilfe deines Epic Games-Kontos Crossplay und plattformübergreifende Gruppen und Fortschritte. Fortlaufend neue Inhalte: Durch erfrischende Gemeinschaftsprojekte und Spiel-Updates mit neuen Kostümen, Hindernissen und Spielarten wird es nie langweilig. Herrlich anpassbar: Wähle aus einer Fülle von Farben, Mustern, Kostümen und Namensschildern. Feiere Siege mit ausschweifendem Jubel und betone mit Emotes dein Talent! Fall Guys erfordert eine Internetverbindung und unterstützt iPhone 11 oder neuer und iPads mit mindestens 4 GB RAM."
       },
       "appPermissions": {
-           "privacy": {
-              "NSMicrophoneUsageDescription": "App uses the microphone for voice chat."
-          }
+        "privacy": {
+          "NSMicrophoneUsageDescription": "App uses the microphone for voice chat."
+        }
       },
       "iconURL": "http://repo.heyfordy.dev/assets/epicFG.png",
       "tintColor": "#00BFF3",
