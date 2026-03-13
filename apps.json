@@ -40,7 +40,7 @@
         "entitlements": [],
         "privacy": {}
       },
-      "patreon": {}
+
     },
     {
       "name": "Twitch+🗿",
@@ -68,7 +68,7 @@
         "entitlements": [],
         "privacy": {}
       },
-      "patreon": {}
+
     },
     {
       "name": "Spotify+🗿",
@@ -146,7 +146,7 @@
           "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you."
         }
       },
-      "patreon": {}
+
     },
     {
       "name": "YouTube+🗿",
@@ -193,7 +193,7 @@
         "entitlements": [],
         "privacy": {}
       },
-      "patreon": {}
+
     },
     {
       "name": "YT Music+🗿",
@@ -227,7 +227,7 @@
         "entitlements": [],
         "privacy": {}
       },
-      "patreon": {}
+
     },
     {
       "name": "LiveContainer+ 🗿",
@@ -305,7 +305,7 @@
           "NSLocationAlwaysAndWhenInUseUsageDescription": "The guest app is requesting for this permission."
         }
       },
-      "patreon": {}
+
     },
     {
       "name": "Fortnite",
@@ -364,7 +364,7 @@
           "NSCameraUsageDescription": "App uses the camera."
         }
       },
-      "patreon": {}
+
     },
     {
       "name": "Fall Guys",
@@ -430,7 +430,7 @@
           "NSMicrophoneUsageDescription": "App uses the microphone for voice chat."
         }
       },
-      "patreon": {}
+
     }
   ],
   "news": [
