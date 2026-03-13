@@ -9,13 +9,71 @@
     "com.spotify.client",
     "com.google.ios.youtube",
     "com.google.ios.youtubemusic",
-    "uk.co.mediatonic.fallguys"
+    "tv.twitch",
+    "com.picsart.studio"
   ],
   "headerURL": "https://repo.heyfordy.dev/assets/header.png",
   "apps": [
     {
+      "name": "PicsArt+🗿",
+      "bundleIdentifier": "com.picsart.studio",
+
+      "developerName": "heyFordy",
+      "subtitle": "» Premium patched !",
+      "localizedDescription": "Unlocks Premium/PRO subscription features.",
+      "iconURL": "https://repo.heyfordy.dev/assets/picsart.png",
+      "tintColor": "#fe026d",
+      "category": "photo-video",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/Bitte-ein-Git/sidestore-repo/releases/download/com.picsart.studio/PicsArt+.ipa",
+          "size": 98700000,
+          "version": "28.4.3",
+          "buildVersion": "",
+          "date": "2026-03-13T17:40:00+01:00",
+          "localizedDescription": "Updated to App ver 28.4.3",
+          "minOSVersion": "12.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "patreon": {}
+    },
+    {
+      "name": "Twitch+🗿",
+      "bundleIdentifier": "tv.twitch",
+
+      "developerName": "heyFordy",
+      "subtitle": "Set your own proxy server !",
+      "localizedDescription": "Allows you to specify a custom proxy server for ad-blocking.",
+      "iconURL": "https://repo.heyfordy.dev/assets/ttv.png",
+      "tintColor": "#a302fe",
+      "category": "entertainment",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/Bitte-ein-Git/sidestore-repo/releases/download/tv.twitch/Twitch+.ipa",
+          "size": 83900000,
+          "version": "19.4",
+          "buildVersion": "",
+          "date": "2026-03-13T17:20:00+01:00",
+          "localizedDescription": "Custom proxy settings added !",
+          "minOSVersion": "12.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "patreon": {}
+    },
+    {
       "name": "Spotify+🗿",
       "bundleIdentifier": "com.spotify.client",
+
       "developerName": "heyFordy",
       "subtitle": "Spotify • Ad-free / Premium Patch",
       "localizedDescription": "Spotify + custom 'EeveeSpotifyReborn'.",
@@ -35,7 +93,9 @@
           "date": "2026-01-27",
           "localizedDescription": "Updated version to 6.2.2",
           "downloadURL": "https://api.heyfordy.dev/ios/spot",
-          "size": 85895992
+          "size": 85895992,
+          "buildVersion": null,
+          "minOSVersion": null
         },
         {
           "version": "6.1.6",
@@ -91,6 +151,7 @@
     {
       "name": "YouTube+🗿",
       "bundleIdentifier": "com.google.ios.youtube",
+
       "developerName": "heyFordy",
       "subtitle": "iOS YouTube Vanced experience.",
       "localizedDescription": "YouTube with YTLitePlus and other tweaks for a better viewing experience.",
@@ -114,14 +175,18 @@
           "date": "2026-03-04T00:00:00+01:00",
           "localizedDescription": "New release",
           "downloadURL": "https://api.heyfordy.dev/ios/yt",
-          "size": 126300000
+          "size": 126300000,
+          "buildVersion": null,
+          "minOSVersion": null
         },
         {
           "version": "21.08.3",
           "date": "2026-02-27T00:00:00+01:00",
           "localizedDescription": "",
           "downloadURL": "https://api.heyfordy.dev/ios/yt",
-          "size": 126000000
+          "size": 126000000,
+          "buildVersion": null,
+          "minOSVersion": null
         }
       ],
       "appPermissions": {
@@ -133,6 +198,7 @@
     {
       "name": "YT Music+🗿",
       "bundleIdentifier": "com.google.ios.youtubemusic",
+
       "developerName": "heyFordy",
       "subtitle": "iOS YouTube Music Vanced experience.",
       "localizedDescription": "YouTube Music with tweaks for a better experience.",
@@ -152,7 +218,9 @@
           "date": "2026-02-27T00:00:00+01:00",
           "localizedDescription": "Added to repo !",
           "downloadURL": "https://github.com/Bitte-ein-Git/ios_ytmusic/releases/download/v2.3.1/FordyYTM_2.3.1.ipa",
-          "size": 82600000
+          "size": 82600000,
+          "buildVersion": null,
+          "minOSVersion": null
         }
       ],
       "appPermissions": {
@@ -162,22 +230,28 @@
       "patreon": {}
     },
     {
-      "beta": false,
       "name": "LiveContainer+ 🗿",
       "bundleIdentifier": "com.kdt.livecontainer",
+
       "developerName": "LiveContainer Team",
       "subtitle": "LiveContainer + SideStore",
-      "version": "3.7.2",
-      "versionDate": "2026-02-27",
-      "versionDescription": "> [!Warning]\r\n> The standalone version requires SideStore 0.6.2+ or AltStore 2.2.1+ for installation.\r\n> To install LiveContainer with built-in SideStore (LiveContainer+SideStore.ipa), please use [Impactor](https://github.com/khcrysalis/Impactor) or [iloader](https://github.com/nab138/iloader). See [our installation guide](https://livecontainer.github.io/docs/installation/lc_sidestore) for details.\r \n>[!Note]\r\n> This a minor release that solves the following issues in version 3.7.0 and adds the following features. For more information, please see [3.7.0 release note](https://github.com/LiveContainer/LiveContainer/releases/tag/3.7.0).\r \nBug Fixes\r \n• Fix an issue where built-in SideStore may freeze on launch (1158)\r\n• Fix the ipa of another LiveContainer not generating in LiveContainer+SideStore builds after SideStore's massive codebase change (1184)\r\n• Fix the new Launch App Shortcut does not work below iOS 18 (1159)\r\n• The Launch App Shortcut now reports meaningful errors\r\n• Fix crash when using external container in multitasking mode\r\n• Fix process hangs when debugging multitask private apps\r \nNew Features\r\n• The \"Tap top of the view to scroll to top\" action can be passed through to multitasking guest apps.",
-      "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.7.2/LiveContainer%2BSideStore.ipa",
       "localizedDescription": "Run iOS apps without actually installing them!",
       "iconURL": "http://repo.heyfordy.dev/assets/lc.png",
       "tintColor": "#0784FC",
       "category": "utilities",
-      "size": 34811049,
-      "screenshotURLs": [
+      "screenshots": [
         "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/screenshots/1.png"
+      ],
+      "versions": [
+        {
+          "version": "3.7.2",
+          "date": "2026-02-27",
+          "localizedDescription": "> [!Warning]\r\n> The standalone version requires SideStore 0.6.2+ or AltStore 2.2.1+ for installation.\r\n> To install LiveContainer with built-in SideStore (LiveContainer+SideStore.ipa), please use [Impactor](https://github.com/khcrysalis/Impactor) or [iloader](https://github.com/nab138/iloader). See [our installation guide](https://livecontainer.github.io/docs/installation/lc_sidestore) for details.\r \n>[!Note]\r\n> This a minor release that solves the following issues in version 3.7.0 and adds the following features. For more information, please see [3.7.0 release note](https://github.com/LiveContainer/LiveContainer/releases/tag/3.7.0).\r \nBug Fixes\r \n• Fix an issue where built-in SideStore may freeze on launch (1158)\r\n• Fix the ipa of another LiveContainer not generating in LiveContainer+SideStore builds after SideStore's massive codebase change (1184)\r\n• Fix the new Launch App Shortcut does not work below iOS 18 (1159)\r\n• The Launch App Shortcut now reports meaningful errors\r\n• Fix crash when using external container in multitasking mode\r\n• Fix process hangs when debugging multitask private apps\r \nNew Features\r\n• The \"Tap top of the view to scroll to top\" action can be passed through to multitasking guest apps.",
+          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.7.2/LiveContainer%2BSideStore.ipa",
+          "size": 34811049,
+          "buildVersion": null,
+          "minOSVersion": null
+        }
       ],
       "appPermissions": {
         "entitlements": [
@@ -231,40 +305,15 @@
           "NSLocationAlwaysAndWhenInUseUsageDescription": "The guest app is requesting for this permission."
         }
       },
-      "versions": [
-        {
-          "version": "3.7.2",
-          "date": "2026-02-27",
-          "localizedDescription": "> [!Warning]\r\n> The standalone version requires SideStore 0.6.2+ or AltStore 2.2.1+ for installation.\r\n> To install LiveContainer with built-in SideStore (LiveContainer+SideStore.ipa), please use [Impactor](https://github.com/khcrysalis/Impactor) or [iloader](https://github.com/nab138/iloader). See [our installation guide](https://livecontainer.github.io/docs/installation/lc_sidestore) for details.\r \n>[!Note]\r\n> This a minor release that solves the following issues in version 3.7.0 and adds the following features. For more information, please see [3.7.0 release note](https://github.com/LiveContainer/LiveContainer/releases/tag/3.7.0).\r \nBug Fixes\r \n• Fix an issue where built-in SideStore may freeze on launch (1158)\r\n• Fix the ipa of another LiveContainer not generating in LiveContainer+SideStore builds after SideStore's massive codebase change (1184)\r\n• Fix the new Launch App Shortcut does not work below iOS 18 (1159)\r\n• The Launch App Shortcut now reports meaningful errors\r\n• Fix crash when using external container in multitasking mode\r\n• Fix process hangs when debugging multitask private apps\r \nNew Features\r\n• The \"Tap top of the view to scroll to top\" action can be passed through to multitasking guest apps.",
-          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.7.2/LiveContainer%2BSideStore.ipa",
-          "size": 34811049
-        }
-      ]
+      "patreon": {}
     },
     {
       "name": "Fortnite",
       "bundleIdentifier": "com.epicgames.FortniteGame",
+
       "developerName": "Epic Games Sweden AB",
       "subtitle": "Official Fortnite by Epic",
       "localizedDescription": "The future of Fortnite is here. Be the last player standing in Battle Royale and Zero Build, explore and survive in LEGO Fortnite, blast to the finish with Rocket Racing or headline a concert with Fortnite Festival. Play thousands of free creator made islands with friends including deathruns, tycoons, racing, zombie survival and more! Join the creator community and build your own island with Unreal Editor for Fortnite (UEFN) or Fortnite Creative tools. Each Fortnite island has an individual age rating so you can find the one that's right for you and your friends. Find it all in Fortnite! Fortnite requires an internet connection and supports iPhone 11 or later and iPads with at least 4GB of RAM.",
-      "_localizedDescriptions": {
-        "en": "The future of Fortnite is here. Be the last player standing in Battle Royale and Zero Build, explore and survive in LEGO Fortnite, blast to the finish with Rocket Racing or headline a concert with Fortnite Festival. Play thousands of free creator made islands with friends including deathruns, tycoons, racing, zombie survival and more! Join the creator community and build your own island with Unreal Editor for Fortnite (UEFN) or Fortnite Creative tools. Each Fortnite island has an individual age rating so you can find the one that's right for you and your friends. Find it all in Fortnite! Fortnite requires an internet connection and supports iPhone 11 or later and iPads with at least 4GB of RAM.",
-        "de": "Die Zukunft von Fortnite ist da. Überlebe bis zuletzt in Battle Royale und Null Bauen, erkunde und überlebe in LEGO Fortnite, rase bis zur Ziellinie in Rocket Racing oder gib ein Konzert mit Fortnite Festival. Spiele Tausende kostenlose, von Creators erstellte Inseln mit Freunden, darunter Deathruns, Tycoon-Spiele, Rennspiele, Zombie-Survival und mehr! Werde Teil der Creator-Community und erstelle deine eigene Insel mit Unreal Editor für Fortnite (UEFN) oder den Werkzeugen des Fortnite-Kreativmodus. Jede Fortnite-Insel verfügt über eine eigene Alterseinstufung, sodass du genau die finden kannst, die zu dir und deinen Freunden passt. All das erwartet dich in Fortnite! Fortnite erfordert eine Internetverbindung und unterstützt iPhone 11 oder neuer und iPads mit mindestens 4 GB RAM."
-      },
-      "appPermissions": {
-        "entitlements": [
-          "com.apple.security.application-groups",
-          "com.apple.developer.siri",
-          "com.apple.developer.associated-domains",
-          "com.apple.developer.kernel.extended-virtual-addressing",
-          "com.apple.developer.kernel.increased-memory-limit",
-          "aps-environment"
-        ],
-        "privacy": {
-          "NSMicrophoneUsageDescription": "App uses the microphone for voice chat.",
-          "NSCameraUsageDescription": "App uses the camera."
-        }
-      },
       "iconURL": "http://repo.heyfordy.dev/assets/epicFN.png",
       "tintColor": "#7724FA",
       "category": "games",
@@ -290,7 +339,6 @@
           "height": 1440
         }
       ],
-      "beta": false,
       "versions": [
         {
           "version": "36.00.1",
@@ -298,29 +346,36 @@
           "localizedDescription": "",
           "downloadURL": "https://github.com/Romain-Pl/EpicGamesIPA/releases/download/FortniteUpdate36.00.1/FortniteClient-IOS-Shipping_36.00.1.ipa",
           "size": 514957312,
-          "minOSVersion": "17.6",
-          "buildVersion": "43339410.3.4"
+          "buildVersion": "43339410.3.4",
+          "minOSVersion": "17.6"
         }
-      ]
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups",
+          "com.apple.developer.siri",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.kernel.extended-virtual-addressing",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "aps-environment"
+        ],
+        "privacy": {
+          "NSMicrophoneUsageDescription": "App uses the microphone for voice chat.",
+          "NSCameraUsageDescription": "App uses the camera."
+        }
+      },
+      "patreon": {}
     },
     {
       "name": "Fall Guys",
       "bundleIdentifier": "uk.co.mediatonic.fallguys",
+
       "developerName": "Mediatonic, Ltd.",
       "subtitle": "Official Fall Guys by Epic",
-      "category": "games",
       "localizedDescription": "Jump into a massive-multiplayer party royale with Fall Guys and be the last Bean standing that takes the Crown. Enter the Blunderdome for a free for all platformer game that invites chaos and high-concentrated fun. Competitive & Cooperative: Tumble between competitive free-for-alls and cooperative challenges—or take on the Blunderdome with up to 3 friends! Play with Friends: Fall Guys supports cross-play, cross-platform parties and cross-progression via your Epic Games Account. Ever-Evolving Content: Play stays fresh with new collabs and game updates which bring new Costumes, Obstacles, and ways to play. Gloriously Customizable: Choose from a multitude of Colors, Patterns, Costumes and Nameplates. Relish wins with extravagant Celebrations and share your flair with Emotes! Fall Guys requires an internet connection and supports iPhone 11 or later and iPads with at least 4GB of RAM.",
-      "_localizedDescriptions": {
-        "en": "Jump into a massive-multiplayer party royale with Fall Guys and be the last Bean standing that takes the Crown. Enter the Blunderdome for a free for all platformer game that invites chaos and high-concentrated fun. Competitive & Cooperative: Tumble between competitive free-for-alls and cooperative challenges—or take on the Blunderdome with up to 3 friends! Play with Friends: Fall Guys supports cross-play, cross-platform parties and cross-progression via your Epic Games Account. Ever-Evolving Content: Play stays fresh with new collabs and game updates which bring new Costumes, Obstacles, and ways to play. Gloriously Customizable: Choose from a multitude of Colors, Patterns, Costumes and Nameplates. Relish wins with extravagant Celebrations and share your flair with Emotes! Fall Guys requires an internet connection and supports iPhone 11 or later and iPads with at least 4GB of RAM.",
-        "de": "Stürz dich in ein massives Multiplayer-Party-Royale-Spiel und hol dir als beste Bohne deine wohlverdiente Krone. Betritt die Stolperhalle dieses kostenlosen Spiels für alle Plattformen und erlebe pures Chaos und hochkonzentrierten Spaß. Wettkampf und Koop: Purzle zwischen allgemeinem Getümmel und Koop-Herausforderungen hin und her oder stürme die Stolperhalle mit bis zu 3 Freunden! Spiele mit Freunden: Fall Guys unterstützt mithilfe deines Epic Games-Kontos Crossplay und plattformübergreifende Gruppen und Fortschritte. Fortlaufend neue Inhalte: Durch erfrischende Gemeinschaftsprojekte und Spiel-Updates mit neuen Kostümen, Hindernissen und Spielarten wird es nie langweilig. Herrlich anpassbar: Wähle aus einer Fülle von Farben, Mustern, Kostümen und Namensschildern. Feiere Siege mit ausschweifendem Jubel und betone mit Emotes dein Talent! Fall Guys erfordert eine Internetverbindung und unterstützt iPhone 11 oder neuer und iPads mit mindestens 4 GB RAM."
-      },
-      "appPermissions": {
-        "privacy": {
-          "NSMicrophoneUsageDescription": "App uses the microphone for voice chat."
-        }
-      },
       "iconURL": "http://repo.heyfordy.dev/assets/epicFG.png",
       "tintColor": "#00BFF3",
+      "category": "games",
       "screenshots": [
         {
           "imageURL": "https://cdn1.epicgames.com/item/50118b7f954e450f8823df1614b24e80/Screenshot11_2556x1179-006efb2712f584d8a018a29d3f16f360",
@@ -358,7 +413,6 @@
           "height": 1179
         }
       ],
-      "beta": false,
       "versions": [
         {
           "version": "19.0.0",
@@ -366,23 +420,41 @@
           "localizedDescription": "",
           "downloadURL": "https://github.com/ChuteSpyro/EpicGamesIPA/releases/download/FallGuysUpdate19.0.0/FallGuys_19.0.0.ipa",
           "size": 2134734848,
-          "minOSVersion": "17.6",
-          "buildVersion": "6349"
+          "buildVersion": "6349",
+          "minOSVersion": "17.6"
         }
-      ]
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSMicrophoneUsageDescription": "App uses the microphone for voice chat."
+        }
+      },
+      "patreon": {}
     }
   ],
   "news": [
     {
-      "title": "Repo design improved !",
-      "identifier": "news_ung6zdo45h",
-      "caption": "& added Epic Games Apps...",
-      "date": "2026-03-11T11:00",
-      "tintColor": "#FE9402",
-      "imageURL": "https://tse3.mm.bing.net/th/id/OIP.JwtBiJcOf0f97ZFC74--yAHaCD?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "title": "Twitch AdBlock NOTICE",
+      "identifier": "news_pvye1nfxji",
+      "caption": "The built-in AdBlock feature doesn't work reliable, you have to manually set a proxy server!",
+      "date": "2026-03-13T18:20",
+      "tintColor": "#a602fe",
+      "imageURL": "https://www.onlinesolutionsgroup.de/wp-content/webp-express/webp-images/uploads/twitch-750x390.jpg.webp",
       "notify": true,
-      "url": "https://repo.heyfordy.dev",
-      "appID": null
+      "url": "",
+      "appID": "tv.twitch"
+    },
+    {
+      "title": "PicsArt+🗿 • Login working !",
+      "identifier": "news_yhj7rrgtcr",
+      "caption": "With the new update to v28.4.3 PicsArt Account login works again!",
+      "date": "2026-03-13T18:40",
+      "tintColor": "#02c7fe",
+      "imageURL": "https://miro.medium.com/v2/resize:fit:786/format:webp/1*-X-jrUTZ_nQRMTVHXCSQMg.jpeg",
+      "notify": true,
+      "url": "",
+      "appID": "com.picsart.studio"
     }
   ]
 }
