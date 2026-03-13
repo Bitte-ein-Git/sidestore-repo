@@ -442,7 +442,6 @@
       "tintColor": "#a602fe",
       "imageURL": "https://www.onlinesolutionsgroup.de/wp-content/webp-express/webp-images/uploads/twitch-750x390.jpg.webp",
       "notify": true,
-      "url": "",
       "appID": "tv.twitch"
     },
     {
@@ -453,7 +452,6 @@
       "tintColor": "#02c7fe",
       "imageURL": "https://miro.medium.com/v2/resize:fit:786/format:webp/1*-X-jrUTZ_nQRMTVHXCSQMg.jpeg",
       "notify": true,
-      "url": "",
       "appID": "com.picsart.studio"
     }
   ]
