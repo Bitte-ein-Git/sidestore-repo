@@ -37,7 +37,7 @@
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
-      },
+      }
     },
     {
       "name": "Twitch+🗿",
@@ -62,8 +62,7 @@
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
-      },
-
+      }
     },
     {
       "name": "Spotify+🗿",
@@ -136,7 +135,7 @@
           "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library.",
           "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you."
         }
-      },
+      }
     },
     {
       "name": "YouTube+🗿",
@@ -177,7 +176,7 @@
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
-      },
+      }
     },
     {
       "name": "YT Music+🗿",
@@ -209,7 +208,7 @@
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
-      },
+      }
     },
     {
       "name": "LiveContainer+ 🗿",
@@ -283,7 +282,7 @@
           "NSHealthShareUsageDescription": "The guest app is requesting for this permission.",
           "NSLocationAlwaysAndWhenInUseUsageDescription": "The guest app is requesting for this permission."
         }
-      },
+      }
     },
     {
       "name": "Fortnite",
@@ -340,8 +339,7 @@
           "NSMicrophoneUsageDescription": "App uses the microphone for voice chat.",
           "NSCameraUsageDescription": "App uses the camera."
         }
-      },
-
+      }
     },
     {
       "name": "Fall Guys",
@@ -405,7 +403,7 @@
         "privacy": {
           "NSMicrophoneUsageDescription": "App uses the microphone for voice chat."
         }
-      },
+      }
     }
   ],
   "news": [

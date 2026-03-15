@@ -2,11 +2,14 @@ name: "🌀• Update YouTube+🗿 in apps.json"
 
 on:
   schedule:
-    - cron: '15 12 * * *' # Runs daily at 12:15 PM UTC
-  workflow_dispatch:      # Allows manual triggering
+    # Runs daily at 12:15 PM UTC
+    - cron: '15 12 * * *'
+  # Allows manual triggering
+  workflow_dispatch:      
 
 permissions:
-  contents: write         # Required to push changes to apps.json and yt-ver.txt
+  # Required to push changes
+  contents: write         
 
 jobs:
   update-apps-json:
@@ -14,15 +17,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout Repository
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # Check for new release
       - name: Check for new release
         id: check_release
         run: |
-          # Fetch the latest release data from Bitte-ein-Git/ios_yt
+          # Fetch the latest release data
           LATEST_RELEASE=$(curl -s "https://api.github.com/repos/Bitte-ein-Git/ios_yt/releases/latest")
           LATEST_TAG=$(echo "$LATEST_RELEASE" | jq -r .tag_name)
           
@@ -31,7 +36,7 @@ jobs:
             exit 1
           fi
 
-          # Read local tag if yt-ver.txt exists
+          # Read local tag
           if [ -f "yt-ver.txt" ]; then
             CURRENT_TAG=$(cat yt-ver.txt)
           else
@@ -46,16 +51,12 @@ jobs:
             echo "New version found! ($CURRENT_TAG -> $LATEST_TAG)"
             echo "run_update=true" >> $GITHUB_OUTPUT
             
-            # Extract details for apps.json
-            # Remove 'v' prefix from tag for the version string if it exists (e.g. 'v5.2b4' -> '5.2b4')
+            # Extract details
             NEW_VERSION=${LATEST_TAG#v} 
-            # Extract date in YYYY-MM-DD format
             NEW_DATE=$(echo "$LATEST_RELEASE" | jq -r .published_at | cut -d'T' -f1)
-            # Find the size of the .ipa asset
             NEW_SIZE=$(echo "$LATEST_RELEASE" | jq -r '.assets[] | select(.name | endswith(".ipa")) | .size' | head -n 1)
             
             if [ -z "$NEW_SIZE" ] || [ "$NEW_SIZE" == "null" ]; then
-                # Fallback size if no ipa is found
                 NEW_SIZE=0 
             fi
             
@@ -65,17 +66,15 @@ jobs:
             echo "NEW_SIZE=$NEW_SIZE" >> $GITHUB_ENV
           fi
 
+      # Update apps.json
       - name: Update apps.json
         if: steps.check_release.outputs.run_update == 'true'
         run: |
-          # Use jq to update the main app details and insert the new version into the 'versions' array
+          # Prepend new version to versions array
           jq --arg version "${{ env.NEW_VERSION }}" \
              --arg date "${{ env.NEW_DATE }}" \
              --argjson size "${{ env.NEW_SIZE }}" \
-             '(.apps[] | select(.bundleIdentifier == "com.google.ios.youtube") | .version) = $version |
-              (.apps[] | select(.bundleIdentifier == "com.google.ios.youtube") | .versionDate) = $date |
-              (.apps[] | select(.bundleIdentifier == "com.google.ios.youtube") | .size) = $size |
-              (.apps[] | select(.bundleIdentifier == "com.google.ios.youtube") | .versions) |= [
+             '(.apps[] | select(.bundleIdentifier == "com.google.ios.youtube") | .versions) |= [
                 {
                   version: $version,
                   date: $date,
@@ -86,13 +85,14 @@ jobs:
           
           echo "apps.json has been updated."
 
+      # Update tracking file and Commit
       - name: Update yt-ver.txt and Commit
         if: steps.check_release.outputs.run_update == 'true'
         run: |
-          # Save the new tag to the tracking file
+          # Save the new tag
           echo "${{ env.LATEST_TAG }}" > yt-ver.txt
           
-          # Configure Git user for the automated commit
+          # Configure Git user
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
