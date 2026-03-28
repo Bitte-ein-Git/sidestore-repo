@@ -83,6 +83,14 @@
       "versions": [
         {
           "version": "6.2.2",
+          "buildVersion": "2",
+          "date": "2026-03-29",
+          "localizedDescription": "Updated heyFordy.dev domain (Build bump)",
+          "downloadURL": "https://api.heyfordy.dev/ios/spot",
+          "size": 85895992
+        },
+        {
+          "version": "6.2.2",
           "date": "2026-01-27",
           "localizedDescription": "Updated version to 6.2.2",
           "downloadURL": "https://api.heyfordy.dev/ios/spot",
@@ -431,6 +439,16 @@
     }
   ],
   "news": [
+    {
+      "title": "Spotify+🗿 Domain fix",
+      "identifier": "news_domainfix",
+      "caption": "Updated to my new domain 'heyFordy.dev'",
+      "date": "2026-03-28T00:00",
+      "tintColor": "#1ED760",
+      "imageURL": "https://heyfordy.dev/assets/Fordy.png",
+      "notify": true,
+      "appID": "com.spotify.client"
+    },
     {
       "title": "Twitch AdBlock NOTICE",
       "identifier": "news_pvye1nfxji",
