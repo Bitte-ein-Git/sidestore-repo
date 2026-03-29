@@ -74,11 +74,31 @@
       "tintColor": "#1ED760",
       "category": "entertainment",
       "screenshots": [
-        "https://repo.heyfordy.dev/assets/FordySpot00.jpeg",
-        "https://repo.heyfordy.dev/assets/FordySpot01.jpeg",
-        "https://repo.heyfordy.dev/assets/FordySpot02.jpeg",
-        "https://repo.heyfordy.dev/assets/FordySpot03.jpeg",
-        "https://repo.heyfordy.dev/assets/FordySpot04.jpeg"
+        {
+          "imageURL": "https://repo.heyfordy.dev/assets/FordySpot00.jpeg",
+          "width": 1152,
+          "height": 2048
+        },
+        {
+          "imageURL": "https://repo.heyfordy.dev/assets/FordySpot01.jpeg",
+          "width": 1152,
+          "height": 2048
+        },
+        {
+          "imageURL": "https://repo.heyfordy.dev/assets/FordySpot02.jpeg",
+          "width": 1152,
+          "height": 2048
+        },
+        {
+          "imageURL": "https://repo.heyfordy.dev/assets/FordySpot03.jpeg",
+          "width": 1152,
+          "height": 2048
+        },
+        {
+          "imageURL": "https://repo.heyfordy.dev/assets/FordySpot04.jpeg",
+          "width": 1152,
+          "height": 2048
+        }
       ],
       "versions": [
         {
@@ -86,11 +106,12 @@
           "buildVersion": "2",
           "date": "2026-03-29",
           "localizedDescription": "Updated heyFordy.dev domain (Build bump)",
-          "downloadURL": "https://api.heyfordy.dev/ios/spot",
+          "downloadURL": "https://github.com/Bitte-ein-Git/ios_spot/releases/download/v6.2.2/FordySpot_v6.2.2.ipa",
           "size": 85895992
         },
         {
           "version": "6.2.2",
+          "buildVersion": "1",
           "date": "2026-01-27",
           "localizedDescription": "Updated version to 6.2.2",
           "downloadURL": "https://api.heyfordy.dev/ios/spot",
@@ -169,6 +190,7 @@
         {
           "version": "21.12.4",
           "date": "2026-03-26",
+          "localizedDescription": "Updated version to 21.12.4",
           "downloadURL": "https://api.heyfordy.dev/ios/yt",
           "size": 126672869
         },
@@ -440,10 +462,10 @@
   ],
   "news": [
     {
-      "title": "Spotify+🗿 Domain fix",
-      "identifier": "news_domainfix",
+      "title": "Spotify+🗿: Domain fix",
+      "identifier": "news_domainupdate",
       "caption": "Updated to my new domain 'heyFordy.dev'",
-      "date": "2026-03-28T00:00",
+      "date": "2026-03-28T03:00",
       "tintColor": "#1ED760",
       "imageURL": "https://heyfordy.dev/assets/Fordy.png",
       "notify": true,
