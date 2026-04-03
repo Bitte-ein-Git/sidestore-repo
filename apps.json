@@ -166,6 +166,12 @@
       ],
       "versions": [
         {
+          "version": "21.13.6",
+          "date": "2026-04-03",
+          "downloadURL": "https://api.heyfordy.dev/ios/yt",
+          "size": 126793096
+        },
+        {
           "version": "21.12.4",
           "date": "2026-03-26",
           "localizedDescription": "Updated version to 21.12.4",
