@@ -166,14 +166,16 @@
       ],
       "versions": [
         {
-          "version": "21.14.4",
-          "date": "2026-04-08",
-          "downloadURL": "https://api.heyfordy.dev/ios/yt",
-          "size": 126676045
+          "version": "21.13.6",
+          "date": "2026-05-12",
+          "localizedDescription": "*Fix* | Downgrade v21.14.4 -> v21.13.6",
+          "downloadURL": "https://github.com/Bitte-ein-Git/ios_yt/releases/download/v21.13.6/FordyYT_21.13.6.ipa",
+          "size": 126793096
         },
         {
-          "version": "21.13.6",
+          "version": "21.13.55",
           "date": "2026-04-03",
+          "localizedDescription": "Legacy entry for v21.13.6; version number adjusted to avoid duplication.",
           "downloadURL": "https://api.heyfordy.dev/ios/yt",
           "size": 126793096
         },
@@ -397,14 +399,14 @@
   ],
   "news": [
     {
-      "title": "PicsArt+🗿 • Login working !",
-      "identifier": "news_yhj7rrgtcr",
-      "caption": "With the new update to v28.4.3 PicsArt Account login works again!",
-      "date": "2026-03-13T18:40",
-      "tintColor": "#02c7fe",
-      "imageURL": "https://miro.medium.com/v2/resize:fit:786/format:webp/1*-X-jrUTZ_nQRMTVHXCSQMg.jpeg",
+      "title": "YouTube+🗿 • Please downgrade !",
+      "identifier": "news_ytbroken12052026",
+      "caption": "After the update to v21.14.4, the YT app stopped working. I have reverted the release; a manual downgrade (REINSTALL) to the stable version is mandatory. If you are already on v21.13.6, you can safely ignore this! :)",
+      "date": "2026-05-12T19:00",
+      "tintColor": "#FD0100",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/1280px-YouTube_Logo_2017.svg.png",
       "notify": true,
-      "appID": "com.picsart.studio"
+      "appID": "com.google.ios.youtube"
     }
   ]
 }
