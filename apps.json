@@ -15,23 +15,72 @@
   "headerURL": "https://repo.heyfordy.dev/assets/header.png",
   "apps": [
     {
-      "name": "Twitch+🗿",
-      "bundleIdentifier": "tv.twitch",
+      "name": "YouTube+🗿",
+      "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "heyFordy",
-      "subtitle": "Set your own proxy server !",
-      "localizedDescription": "Allows you to specify a custom proxy server for ad-blocking.",
-      "iconURL": "https://repo.heyfordy.dev/assets/ttv.png",
-      "tintColor": "#a302fe",
+      "subtitle": "iOS YouTube Vanced experience.",
+      "localizedDescription": "YouTube with YTLitePlus and other tweaks for a better viewing experience.",
+      "iconURL": "http://repo.heyfordy.dev/assets/yt.png",
+      "tintColor": "#FD0100",
       "category": "entertainment",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/1.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/2.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/3.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/4.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/5.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/6.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/7.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/8.png",
+        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/9.png"
+      ],
       "versions": [
         {
-          "downloadURL": "https://github.com/Bitte-ein-Git/sidestore-repo/releases/download/tv.twitch/Twitch+.ipa",
-          "size": 83900000,
-          "version": "19.4",
-          "date": "2026-03-13T17:20:00+01:00",
-          "localizedDescription": "Custom proxy settings added !",
-          "minOSVersion": "12.0"
+          "version": "21.13.6",
+          "date": "2026-05-12",
+          "localizedDescription": "*Fix* | Downgrade v21.14.4 -> v21.13.6",
+          "downloadURL": "https://github.com/Bitte-ein-Git/ios_yt/releases/download/v21.13.6/FordyYT_21.13.6.ipa",
+          "size": 126793096
+        },
+        {
+          "version": "21.13.55",
+          "date": "2026-04-03",
+          "localizedDescription": "Legacy entry for v21.13.6; version number adjusted to avoid duplication.",
+          "downloadURL": "https://api.heyfordy.dev/ios/yt",
+          "size": 126793096
+        },
+        {
+          "version": "21.12.4",
+          "date": "2026-03-26",
+          "localizedDescription": "Updated version to 21.12.4",
+          "downloadURL": "https://api.heyfordy.dev/ios/yt",
+          "size": 126672869
+        },
+        {
+          "version": "21.11.4",
+          "date": "2026-03-18",
+          "downloadURL": "https://api.heyfordy.dev/ios/yt",
+          "size": 126418284
+        },
+        {
+          "version": "21.10.2",
+          "date": "2026-03-15",
+          "downloadURL": "https://api.heyfordy.dev/ios/yt",
+          "size": 126276531
+        },
+        {
+          "version": "21.09.2",
+          "date": "2026-03-04T00:00:00+01:00",
+          "localizedDescription": "New release",
+          "downloadURL": "https://api.heyfordy.dev/ios/yt",
+          "size": 126300000
+        },
+        {
+          "version": "21.08.3",
+          "date": "2026-02-27T00:00:00+01:00",
+          "localizedDescription": "",
+          "downloadURL": "https://api.heyfordy.dev/ios/yt",
+          "size": 126000000
         }
       ],
       "appPermissions": {
@@ -145,80 +194,6 @@
       }
     },
     {
-      "name": "YouTube+🗿",
-      "bundleIdentifier": "com.google.ios.youtube",
-      "developerName": "heyFordy",
-      "subtitle": "iOS YouTube Vanced experience.",
-      "localizedDescription": "YouTube with YTLitePlus and other tweaks for a better viewing experience.",
-      "iconURL": "http://repo.heyfordy.dev/assets/yt.png",
-      "tintColor": "#FD0100",
-      "category": "entertainment",
-      "screenshots": [
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/1.png",
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/2.png",
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/3.png",
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/4.png",
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/5.png",
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/6.png",
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/7.png",
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/8.png",
-        "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/9.png"
-      ],
-      "versions": [
-        {
-          "version": "21.13.6",
-          "date": "2026-05-12",
-          "localizedDescription": "*Fix* | Downgrade v21.14.4 -> v21.13.6",
-          "downloadURL": "https://github.com/Bitte-ein-Git/ios_yt/releases/download/v21.13.6/FordyYT_21.13.6.ipa",
-          "size": 126793096
-        },
-        {
-          "version": "21.13.55",
-          "date": "2026-04-03",
-          "localizedDescription": "Legacy entry for v21.13.6; version number adjusted to avoid duplication.",
-          "downloadURL": "https://api.heyfordy.dev/ios/yt",
-          "size": 126793096
-        },
-        {
-          "version": "21.12.4",
-          "date": "2026-03-26",
-          "localizedDescription": "Updated version to 21.12.4",
-          "downloadURL": "https://api.heyfordy.dev/ios/yt",
-          "size": 126672869
-        },
-        {
-          "version": "21.11.4",
-          "date": "2026-03-18",
-          "downloadURL": "https://api.heyfordy.dev/ios/yt",
-          "size": 126418284
-        },
-        {
-          "version": "21.10.2",
-          "date": "2026-03-15",
-          "downloadURL": "https://api.heyfordy.dev/ios/yt",
-          "size": 126276531
-        },
-        {
-          "version": "21.09.2",
-          "date": "2026-03-04T00:00:00+01:00",
-          "localizedDescription": "New release",
-          "downloadURL": "https://api.heyfordy.dev/ios/yt",
-          "size": 126300000
-        },
-        {
-          "version": "21.08.3",
-          "date": "2026-02-27T00:00:00+01:00",
-          "localizedDescription": "",
-          "downloadURL": "https://api.heyfordy.dev/ios/yt",
-          "size": 126000000
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      }
-    },
-    {
       "name": "YT Music+🗿",
       "bundleIdentifier": "com.google.ios.youtubemusic",
       "developerName": "heyFordy",
@@ -267,6 +242,56 @@
           "version": "28.4.3",
           "date": "2026-03-13T17:40:00+01:00",
           "localizedDescription": "Updated to App ver 28.4.3",
+          "minOSVersion": "12.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Gopeed",
+      "bundleIdentifier": "com.gopeed.gopeed.app",
+      "developerName": "GopeedLab",
+      "subtitle": "🔥 Download Manager",
+      "localizedDescription": "Free, open-source download manager supporting HTTP, HTTPS, BitTorrent, magnet, and ed2k links.",
+      "iconURL": "https://raw.githubusercontent.com/GopeedLab/gopeed/refs/heads/main/ui/flutter/assets/icon/icon_1024.png",
+      "tintColor": "#48ff77",
+      "category": "utilities",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/GopeedLab/gopeed/releases/download/v1.0.0/Gopeed-v1.0.0-ios.ipa",
+          "size": 0,
+          "version": "1.0.0",
+          "date": "2026-01-01T00:00:00+01:00",
+          "localizedDescription": "Gopeed added",
+          "minOSVersion": "12.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Twitch+🗿",
+      "bundleIdentifier": "tv.twitch",
+      "developerName": "heyFordy",
+      "subtitle": "Set your own proxy server !",
+      "localizedDescription": "Allows you to specify a custom proxy server for ad-blocking.",
+      "iconURL": "https://repo.heyfordy.dev/assets/ttv.png",
+      "tintColor": "#a302fe",
+      "category": "entertainment",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/Bitte-ein-Git/sidestore-repo/releases/download/tv.twitch/Twitch+.ipa",
+          "size": 83900000,
+          "version": "19.4",
+          "date": "2026-03-13T17:20:00+01:00",
+          "localizedDescription": "Custom proxy settings added !",
           "minOSVersion": "12.0"
         }
       ],
@@ -395,18 +420,6 @@
           "NSMicrophoneUsageDescription": "App uses the microphone for voice chat."
         }
       }
-    }
-  ],
-  "news": [
-    {
-      "title": "YouTube+🗿 • Please downgrade !",
-      "identifier": "news_ytbroken12052026",
-      "caption": "After the update to v21.14.4, the YT app stopped working. I have reverted the release; a manual downgrade (REINSTALL) to the stable version is mandatory. If you are already on v21.13.6, you can safely ignore this! :)",
-      "date": "2026-05-12T19:00",
-      "tintColor": "#FD0100",
-      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/1280px-YouTube_Logo_2017.svg.png",
-      "notify": true,
-      "appID": "com.google.ios.youtube"
     }
   ]
 }

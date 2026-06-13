@@ -1,0 +1,96 @@
+name: "🌀• Update Gopeed in apps.json"
+
+on:
+  schedule:
+    - cron: '30 12 * * *'
+  workflow_dispatch:      
+
+permissions:
+  contents: write         
+
+jobs:
+  update-apps-json:
+    name: Check & Update apps.json for Gopeed
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check for new release
+        id: check_release
+        run: |
+          API_URL='https://gopeed.com/api/download?tpl=Gopeed-$version-ios.ipa'
+          DOWNLOAD_URL=$(curl -Ls -o /dev/null -w %{url_effective} "$API_URL")
+          
+          if [ -z "$DOWNLOAD_URL" ] || [ "$DOWNLOAD_URL" == "$API_URL" ]; then
+            echo "::error::Could not resolve the download URL or redirect failed."
+            exit 1
+          fi
+
+          FILENAME=$(basename "$DOWNLOAD_URL")
+          LATEST_TAG=$(echo "$FILENAME" | grep -oE 'v[0-9]+(\.[0-9]+)*' | head -n 1 | tr -d '\r\n')
+          
+          if [ -z "$LATEST_TAG" ]; then
+            echo "::error::Could not extract version tag from filename: $FILENAME"
+            exit 1
+          fi
+
+          if [ -f "gopeed-ver.txt" ]; then
+            CURRENT_TAG=$(cat gopeed-ver.txt | tr -d '\r\n')
+          else
+            CURRENT_TAG=""
+          fi
+
+          if [ "$LATEST_TAG" == "$CURRENT_TAG" ]; then
+            echo "run_update=false" >> $GITHUB_OUTPUT
+          else
+            echo "run_update=true" >> $GITHUB_OUTPUT
+            
+            NEW_VERSION=${LATEST_TAG#v} 
+            NEW_DATE=$(date +"%Y-%m-%dT%H:%M:%S%z")
+            
+            NEW_SIZE=$(curl -sLI "$DOWNLOAD_URL" | grep -i Content-Length | tail -n 1 | awk '{print $2}' | tr -d '\r\n')
+            
+            if [ -z "$NEW_SIZE" ] || ! [[ "$NEW_SIZE" =~ ^[0-9]+$ ]]; then
+                NEW_SIZE=0 
+            fi
+            
+            echo "LATEST_TAG=$LATEST_TAG" >> $GITHUB_ENV
+            echo "NEW_VERSION=$NEW_VERSION" >> $GITHUB_ENV
+            echo "NEW_DATE=$NEW_DATE" >> $GITHUB_ENV
+            echo "NEW_SIZE=$NEW_SIZE" >> $GITHUB_ENV
+            echo "DOWNLOAD_URL=$DOWNLOAD_URL" >> $GITHUB_ENV
+          fi
+
+      - name: Update apps.json
+        if: steps.check_release.outputs.run_update == 'true'
+        run: |
+          jq --arg version "${{ env.NEW_VERSION }}" \
+             --arg date "${{ env.NEW_DATE }}" \
+             --arg url "${{ env.DOWNLOAD_URL }}" \
+             --argjson size "${{ env.NEW_SIZE }}" \
+             '(.apps[] | select(.bundleIdentifier == "com.gopeed.gopeed.app") | .versions) |= [
+                {
+                  version: $version,
+                  date: $date,
+                  localizedDescription: "Updated to \($version)",
+                  downloadURL: $url,
+                  size: $size,
+                  minOSVersion: "12.0"
+                }
+              ] + .' apps.json > tmp.json && mv tmp.json apps.json
+
+      - name: Update gopeed-ver.txt and Commit
+        if: steps.check_release.outputs.run_update == 'true'
+        run: |
+          echo "${{ env.LATEST_TAG }}" > gopeed-ver.txt
+          
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          git add apps.json gopeed-ver.txt
+          git commit -m "🗿Gopeed updated! ${{ env.NEW_VERSION }}"
+          git push
