@@ -130,7 +130,7 @@
           "buildVersion": "2",
           "date": "2026-03-30",
           "localizedDescription": "Updated heyFordy.dev domain (Build bump)",
-          "downloadURL": "https://github.com/Bitte-ein-Git/ios_spot/releases/download/v6.2.2/FordySpot_v6.2.2.ipa.stable-backup",
+          "downloadURL": "https://github.com/Bitte-ein-Git/ios_spot/releases/download/v6.2.2/FordySpot_v6.2.2.ipa",
           "size": 85895992,
           "minOSVersion": "16.0"
         },
