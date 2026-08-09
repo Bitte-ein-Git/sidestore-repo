@@ -9,11 +9,51 @@
     "com.spotify.client",
     "com.google.ios.youtube",
     "com.google.ios.youtubemusic",
+    "com.firecore.infuse",
     "tv.twitch",
     "com.picsart.studio"
   ],
   "headerURL": "https://repo.heyfordy.dev/assets/header.png",
   "apps": [
+    {
+      "name": "Infuse+🗿",
+      "bundleIdentifier": "com.firecore.infuse",
+      "developerName": "Firecore, LLC • iOSGods",
+      "subtitle": "An elegant video player | Enhanced & Unlocked",
+      "localizedDescription": "Ignite your video content with Infuse – the beautiful way to watch almost any video format!",
+      "iconURL": "http://repo.heyfordy.dev/assets/infuse-plus.png",
+      "tintColor": "#fe5202",
+      "category": "entertainment",
+      "screenshots": [
+        "https://repo.heyfordy.dev/assets/infusep_scrn1.jpg",
+        "https://repo.heyfordy.dev/assets/infusep_scrn2.jpg",
+        "https://repo.heyfordy.dev/assets/infusep_scrn3.jpg"
+      ],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/Bitte-ein-Git/sidestore-repo/releases/download/com.firecore.infuse/Infuse+.ipa",
+          "size": 98500000,
+          "version": "8.5",
+          "buildVersion": null,
+          "date": "2026-08-09T23:18:00+02:00",
+          "localizedDescription": null,
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "Used to discover nearby Cast devices",
+          "NSCameraUsageDescription": "Used for scanning QR codes",
+          "NSBluetoothPeripheralUsageDescription": "Used for streaming media to external devices",
+          "NSPhotoLibraryAddUsageDescription": "Used for saving QR code",
+          "NSLocalNetworkUsageDescription": "Used to discover network shares and Google Cast devices in your local network",
+          "NSAppleMusicUsageDescription": "Please allow access in order to show iTunes videos.",
+          "NSMicrophoneUsageDescription": "Used for pairing with external devices",
+          "NSFaceIDUsageDescription": "Used for unlocking your device when restrictions are enabled"
+        }
+      }
+    },
     {
       "name": "YouTube+🗿",
       "bundleIdentifier": "com.google.ios.youtube",
@@ -127,29 +167,29 @@
       "versions": [
         {
           "version": "6.2.2",
-          "buildVersion": "2",
           "date": "2026-03-30",
           "localizedDescription": "Updated heyFordy.dev domain (Build bump)",
           "downloadURL": "https://github.com/Bitte-ein-Git/ios_spot/releases/download/v6.2.2/FordySpot_v6.2.2.ipa",
           "size": 85895992,
+          "buildVersion": "2",
           "minOSVersion": "16.0"
         },
         {
           "version": "6.2.2",
-          "buildVersion": null,
           "date": "2026-01-27",
           "localizedDescription": "Updated version to 6.2.2",
           "downloadURL": "https://github.com/Bitte-ein-Git/ios_spot/releases/download/v6.2.2/FordySpot_v6.2.2.ipa",
           "size": 85895992,
+          "buildVersion": null,
           "minOSVersion": "16.0"
         },
         {
           "version": "6.1.6",
-          "buildVersion": null,
           "date": "2025-09-11",
           "localizedDescription": "First AltStore release!",
           "downloadURL": "https://api.heyfordy.dev/ios/spot",
           "size": 0,
+          "buildVersion": null,
           "minOSVersion": "16.0"
         }
       ],
@@ -215,9 +255,7 @@
           "date": "2026-02-27T00:00:00+01:00",
           "localizedDescription": "Added to repo !",
           "downloadURL": "https://github.com/Bitte-ein-Git/ios_ytmusic/releases/download/v2.3.1/FordyYTM_2.3.1.ipa",
-          "size": 82600000,
-          "buildVersion": null,
-          "minOSVersion": null
+          "size": 82600000
         }
       ],
       "appPermissions": {
@@ -237,11 +275,11 @@
       "screenshots": [],
       "versions": [
         {
-          "downloadURL": "https://github.com/Bitte-ein-Git/sidestore-repo/releases/download/com.picsart.studio/PicsArt+.ipa",
-          "size": 98700000,
           "version": "28.4.3",
           "date": "2026-03-13T17:40:00+01:00",
           "localizedDescription": "Updated to App ver 28.4.3",
+          "downloadURL": "https://github.com/Bitte-ein-Git/sidestore-repo/releases/download/com.picsart.studio/PicsArt+.ipa",
+          "size": 98700000,
           "minOSVersion": "12.0"
         }
       ],
@@ -267,14 +305,16 @@
           "localizedDescription": "Updated to 1.9.3",
           "downloadURL": "https://release-assets.githubusercontent.com/github-production-release-asset/182502850/d7b09ee4-2766-4054-a8b2-aa9f7f9f2a4e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-06-13T13%3A51%3A24Z&rscd=attachment%3B+filename%3DGopeed-v1.9.3-ios.ipa&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-06-13T12%3A50%3A41Z&ske=2026-06-13T13%3A51%3A24Z&sks=b&skv=2018-11-09&sig=8G998pggUKF96%2FWvOWAYDurp5WCKJxtes4g6J%2FU8R7k%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4MTM1Njk2OCwibmJmIjoxNzgxMzU1MTY4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.bcmVebnPB0W76Z4I05WQVYyxneAVWKci9R49ySQxMB4&response-content-disposition=attachment%3B%20filename%3DGopeed-v1.9.3-ios.ipa&response-content-type=application%2Foctet-stream",
           "size": 27488140,
+          "buildVersion": null,
           "minOSVersion": "12.0"
         },
         {
-          "downloadURL": "https://github.com/GopeedLab/gopeed/releases/download/v1.0.0/Gopeed-v1.0.0-ios.ipa",
-          "size": 0,
           "version": "1.0.0",
           "date": "2026-01-01T00:00:00+01:00",
           "localizedDescription": "Gopeed added",
+          "downloadURL": "https://github.com/GopeedLab/gopeed/releases/download/v1.0.0/Gopeed-v1.0.0-ios.ipa",
+          "size": 0,
+          "buildVersion": null,
           "minOSVersion": "12.0"
         }
       ],
@@ -295,11 +335,12 @@
       "screenshots": [],
       "versions": [
         {
-          "downloadURL": "https://github.com/Bitte-ein-Git/sidestore-repo/releases/download/tv.twitch/Twitch+.ipa",
-          "size": 83900000,
           "version": "19.4",
           "date": "2026-03-13T17:20:00+01:00",
           "localizedDescription": "Custom proxy settings added !",
+          "downloadURL": "https://github.com/Bitte-ein-Git/sidestore-repo/releases/download/tv.twitch/Twitch+.ipa",
+          "size": 83900000,
+          "buildVersion": null,
           "minOSVersion": "12.0"
         }
       ],
@@ -307,127 +348,7 @@
         "entitlements": [],
         "privacy": {}
       }
-    },
-    {
-      "name": "Fortnite",
-      "bundleIdentifier": "com.epicgames.FortniteGame",
-      "developerName": "Epic Games Sweden AB",
-      "subtitle": "Official Fortnite by Epic",
-      "localizedDescription": "The future of Fortnite is here. Be the last player standing in Battle Royale and Zero Build, explore and survive in LEGO Fortnite, blast to the finish with Rocket Racing or headline a concert with Fortnite Festival. Play thousands of free creator made islands with friends including deathruns, tycoons, racing, zombie survival and more! Join the creator community and build your own island with Unreal Editor for Fortnite (UEFN) or Fortnite Creative tools. Each Fortnite island has an individual age rating so you can find the one that's right for you and your friends. Find it all in Fortnite! Fortnite requires an internet connection and supports iPhone 11 or later and iPads with at least 4GB of RAM.",
-      "iconURL": "http://repo.heyfordy.dev/assets/epicFN.png",
-      "tintColor": "#7724FA",
-      "category": "games",
-      "screenshots": [
-        {
-          "imageURL": "https://cdn1.epicgames.com/item/fn/FNBR_CH5S4_Logo_2688x1440_2688x1440-5ddfe90e9330b9c6406d8413f0f74623",
-          "width": 2688,
-          "height": 1440
-        },
-        {
-          "imageURL": "https://cdn1.epicgames.com/item/fn/FNJN_BattleBus_KeyArt_DiscoveryTile_2688x1440_2688x1440-19f8d06c96c372915d4494020f42e6e7",
-          "width": 2688,
-          "height": 1440
-        },
-        {
-          "imageURL": "https://cdn1.epicgames.com/item/fn/FNSP_05_MobileScreen_2688x1440_2688x1440-ccb8f89255a077ba448debc17aa6c500",
-          "width": 2688,
-          "height": 1440
-        },
-        {
-          "imageURL": "https://cdn1.epicgames.com/item/fn/RR_Inferno_Island_Key_Art_RR_2688x1440_2688x1440-22ff07c036e235f49f69dd92d933beba",
-          "width": 2688,
-          "height": 1440
-        }
-      ],
-      "versions": [
-        {
-          "version": "36.00.1",
-          "date": "2025-06-11T00:00:00.0000000Z",
-          "localizedDescription": "",
-          "downloadURL": "https://github.com/Romain-Pl/EpicGamesIPA/releases/download/FortniteUpdate36.00.1/FortniteClient-IOS-Shipping_36.00.1.ipa",
-          "size": 514957312,
-          "buildVersion": "43339410.3.4",
-          "minOSVersion": "17.6"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [
-          "com.apple.security.application-groups",
-          "com.apple.developer.siri",
-          "com.apple.developer.associated-domains",
-          "com.apple.developer.kernel.extended-virtual-addressing",
-          "com.apple.developer.kernel.increased-memory-limit",
-          "aps-environment"
-        ],
-        "privacy": {
-          "NSMicrophoneUsageDescription": "App uses the microphone for voice chat.",
-          "NSCameraUsageDescription": "App uses the camera."
-        }
-      }
-    },
-    {
-      "name": "Fall Guys",
-      "bundleIdentifier": "uk.co.mediatonic.fallguys",
-      "developerName": "Mediatonic, Ltd.",
-      "subtitle": "Official Fall Guys by Epic",
-      "localizedDescription": "Jump into a massive-multiplayer party royale with Fall Guys and be the last Bean standing that takes the Crown. Enter the Blunderdome for a free for all platformer game that invites chaos and high-concentrated fun. Competitive & Cooperative: Tumble between competitive free-for-alls and cooperative challenges—or take on the Blunderdome with up to 3 friends! Play with Friends: Fall Guys supports cross-play, cross-platform parties and cross-progression via your Epic Games Account. Ever-Evolving Content: Play stays fresh with new collabs and game updates which bring new Costumes, Obstacles, and ways to play. Gloriously Customizable: Choose from a multitude of Colors, Patterns, Costumes and Nameplates. Relish wins with extravagant Celebrations and share your flair with Emotes! Fall Guys requires an internet connection and supports iPhone 11 or later and iPads with at least 4GB of RAM.",
-      "iconURL": "http://repo.heyfordy.dev/assets/epicFG.png",
-      "tintColor": "#00BFF3",
-      "category": "games",
-      "screenshots": [
-        {
-          "imageURL": "https://cdn1.epicgames.com/item/50118b7f954e450f8823df1614b24e80/Screenshot11_2556x1179-006efb2712f584d8a018a29d3f16f360",
-          "width": 2556,
-          "height": 1179
-        },
-        {
-          "imageURL": "https://cdn1.epicgames.com/item/50118b7f954e450f8823df1614b24e80/Screenshot4_2556x1179-49c5241432d626e0a937d6f6b8306d16",
-          "width": 2556,
-          "height": 1179
-        },
-        {
-          "imageURL": "https://cdn1.epicgames.com/item/50118b7f954e450f8823df1614b24e80/Screenshot51_2556x1179-22654008650c9b6000106aa49ec94b46",
-          "width": 2556,
-          "height": 1179
-        },
-        {
-          "imageURL": "https://cdn1.epicgames.com/item/50118b7f954e450f8823df1614b24e80/Screenshot61_2556x1179-3060afccde2e596bb115b0507111cc8b",
-          "width": 2556,
-          "height": 1179
-        },
-        {
-          "imageURL": "https://cdn1.epicgames.com/item/50118b7f954e450f8823df1614b24e80/Screenshot71_2556x1179-983b8acbda9ab639dc69a67c5eb3e618",
-          "width": 2556,
-          "height": 1179
-        },
-        {
-          "imageURL": "https://cdn1.epicgames.com/item/50118b7f954e450f8823df1614b24e80/Screenshot21_2556x1179-ae1821ce5a0add1d4794a73317dbf172",
-          "width": 2556,
-          "height": 1179
-        },
-        {
-          "imageURL": "https://cdn1.epicgames.com/item/50118b7f954e450f8823df1614b24e80/Screenshot31_2556x1179-e9141c407999996fc17ab8751570891d",
-          "width": 2556,
-          "height": 1179
-        }
-      ],
-      "versions": [
-        {
-          "version": "19.0.0",
-          "date": "2025-05-27T00:00:00.0000000Z",
-          "localizedDescription": "",
-          "downloadURL": "https://github.com/ChuteSpyro/EpicGamesIPA/releases/download/FallGuysUpdate19.0.0/FallGuys_19.0.0.ipa",
-          "size": 2134734848,
-          "buildVersion": "6349",
-          "minOSVersion": "17.6"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSMicrophoneUsageDescription": "App uses the microphone for voice chat."
-        }
-      }
     }
-  ]
+  ],
+  "news": []
 }
