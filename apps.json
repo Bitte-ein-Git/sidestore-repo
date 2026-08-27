@@ -9,51 +9,13 @@
     "com.spotify.client",
     "com.google.ios.youtube",
     "com.google.ios.youtubemusic",
+    "com.adobe.Adobe-Reader",
+    "com.picsart.studio",
     "com.firecore.infuse",
-    "tv.twitch",
-    "com.picsart.studio"
+    "tv.twitch"
   ],
-  "headerURL": "https://repo.heyfordy.dev/assets/header.png",
+  "headerURL": "https://repo.heyfordy.dev/assets/header2.png",
   "apps": [
-    {
-      "name": "Infuse+🗿",
-      "bundleIdentifier": "com.firecore.infuse",
-      "developerName": "Firecore, LLC • iOSGods",
-      "subtitle": "An elegant video player | Enhanced & Unlocked",
-      "localizedDescription": "Ignite your video content with Infuse – the beautiful way to watch almost any video format!",
-      "iconURL": "http://repo.heyfordy.dev/assets/infuse-plus.png",
-      "tintColor": "#fe5202",
-      "category": "entertainment",
-      "screenshots": [
-        "https://repo.heyfordy.dev/assets/infusep_scrn1.jpg",
-        "https://repo.heyfordy.dev/assets/infusep_scrn2.jpg",
-        "https://repo.heyfordy.dev/assets/infusep_scrn3.jpg"
-      ],
-      "versions": [
-        {
-          "downloadURL": "https://github.com/Bitte-ein-Git/sidestore-repo/releases/download/com.firecore.infuse/Infuse+.ipa",
-          "size": 98500000,
-          "version": "8.5",
-          "buildVersion": null,
-          "date": "2026-08-09T23:18:00+02:00",
-          "localizedDescription": null,
-          "minOSVersion": null
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSBluetoothAlwaysUsageDescription": "Used to discover nearby Cast devices",
-          "NSCameraUsageDescription": "Used for scanning QR codes",
-          "NSBluetoothPeripheralUsageDescription": "Used for streaming media to external devices",
-          "NSPhotoLibraryAddUsageDescription": "Used for saving QR code",
-          "NSLocalNetworkUsageDescription": "Used to discover network shares and Google Cast devices in your local network",
-          "NSAppleMusicUsageDescription": "Please allow access in order to show iTunes videos.",
-          "NSMicrophoneUsageDescription": "Used for pairing with external devices",
-          "NSFaceIDUsageDescription": "Used for unlocking your device when restrictions are enabled"
-        }
-      }
-    },
     {
       "name": "YouTube+🗿",
       "bundleIdentifier": "com.google.ios.youtube",
@@ -99,12 +61,14 @@
         {
           "version": "21.11.4",
           "date": "2026-03-18",
+          "localizedDescription": "First AltStore release!",
           "downloadURL": "https://api.heyfordy.dev/ios/yt",
           "size": 126418284
         },
         {
           "version": "21.10.2",
           "date": "2026-03-15",
+          "localizedDescription": "First AltStore release!",
           "downloadURL": "https://api.heyfordy.dev/ios/yt",
           "size": 126276531
         },
@@ -180,7 +144,6 @@
           "localizedDescription": "Updated version to 6.2.2",
           "downloadURL": "https://github.com/Bitte-ein-Git/ios_spot/releases/download/v6.2.2/FordySpot_v6.2.2.ipa",
           "size": 85895992,
-          "buildVersion": null,
           "minOSVersion": "16.0"
         },
         {
@@ -189,7 +152,6 @@
           "localizedDescription": "First AltStore release!",
           "downloadURL": "https://api.heyfordy.dev/ios/spot",
           "size": 0,
-          "buildVersion": null,
           "minOSVersion": "16.0"
         }
       ],
@@ -264,6 +226,38 @@
       }
     },
     {
+      "name": "Acrobat+🗿",
+      "bundleIdentifier": "com.adobe.Adobe-Reader",
+      "developerName": "heyFordy / Adobe",
+      "subtitle": "Unlocked Adobe Acrobat Reader",
+      "localizedDescription": "This is an awesome app only available on AltStore.",
+      "iconURL": "https://repo.heyfordy.dev/assets/acrobat.png",
+      "tintColor": "#7f7f7f",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "24.05.01",
+          "date": "2026-08-27T20:26:00+02:00",
+          "localizedDescription": "First stable build with Livecontainer support...",
+          "downloadURL": "https://github.com/elias1731/hello/releases/download/AAR%2B/AARplus_v24.05.01.ipa",
+          "size": 151000000
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "NSCameraUsageDescription",
+          "NSContactsUsageDescription": "NSContactsUsageDescription",
+          "NSFaceIDUsageDescription": "NSFaceIDUsageDescription",
+          "NSMicrophoneUsageDescription": "NSMicrophoneUsageDescription",
+          "NSPhotoLibraryAddUsageDescription": "NSPhotoLibraryAddUsageDescription",
+          "NSPhotoLibraryUsageDescription": "NSPhotoLibraryUsageDescription",
+          "NSSpeechRecognitionUsageDescription": "NSSpeechRecognitionUsageDescription"
+        }
+      }
+    },
+    {
       "name": "PicsArt+🗿",
       "bundleIdentifier": "com.picsart.studio",
       "developerName": "heyFordy",
@@ -289,6 +283,43 @@
       }
     },
     {
+      "name": "Infuse+🗿",
+      "bundleIdentifier": "com.firecore.infuse",
+      "developerName": "Firecore, LLC • iOSGods",
+      "subtitle": "An elegant video player | Enhanced & Unlocked",
+      "localizedDescription": "Ignite your video content with Infuse – the beautiful way to watch almost any video format!",
+      "iconURL": "http://repo.heyfordy.dev/assets/infuse-plus.png",
+      "tintColor": "#fe5202",
+      "category": "entertainment",
+      "screenshots": [
+        "https://repo.heyfordy.dev/assets/infusep_scrn1.jpg",
+        "https://repo.heyfordy.dev/assets/infusep_scrn2.jpg",
+        "https://repo.heyfordy.dev/assets/infusep_scrn3.jpg"
+      ],
+      "versions": [
+        {
+          "version": "8.5",
+          "date": "2026-08-09T23:18:00+02:00",
+          "localizedDescription": null,
+          "downloadURL": "https://github.com/Bitte-ein-Git/sidestore-repo/releases/download/com.firecore.infuse/Infuse+.ipa",
+          "size": 98500000
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "Used to discover nearby Cast devices",
+          "NSCameraUsageDescription": "Used for scanning QR codes",
+          "NSBluetoothPeripheralUsageDescription": "Used for streaming media to external devices",
+          "NSPhotoLibraryAddUsageDescription": "Used for saving QR code",
+          "NSLocalNetworkUsageDescription": "Used to discover network shares and Google Cast devices in your local network",
+          "NSAppleMusicUsageDescription": "Please allow access in order to show iTunes videos.",
+          "NSMicrophoneUsageDescription": "Used for pairing with external devices",
+          "NSFaceIDUsageDescription": "Used for unlocking your device when restrictions are enabled"
+        }
+      }
+    },
+    {
       "name": "Gopeed",
       "bundleIdentifier": "com.gopeed.gopeed.app",
       "developerName": "GopeedLab",
@@ -305,7 +336,6 @@
           "localizedDescription": "Updated to 1.9.3",
           "downloadURL": "https://release-assets.githubusercontent.com/github-production-release-asset/182502850/d7b09ee4-2766-4054-a8b2-aa9f7f9f2a4e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-06-13T13%3A51%3A24Z&rscd=attachment%3B+filename%3DGopeed-v1.9.3-ios.ipa&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-06-13T12%3A50%3A41Z&ske=2026-06-13T13%3A51%3A24Z&sks=b&skv=2018-11-09&sig=8G998pggUKF96%2FWvOWAYDurp5WCKJxtes4g6J%2FU8R7k%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4MTM1Njk2OCwibmJmIjoxNzgxMzU1MTY4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.bcmVebnPB0W76Z4I05WQVYyxneAVWKci9R49ySQxMB4&response-content-disposition=attachment%3B%20filename%3DGopeed-v1.9.3-ios.ipa&response-content-type=application%2Foctet-stream",
           "size": 27488140,
-          "buildVersion": null,
           "minOSVersion": "12.0"
         },
         {
@@ -314,7 +344,6 @@
           "localizedDescription": "Gopeed added",
           "downloadURL": "https://github.com/GopeedLab/gopeed/releases/download/v1.0.0/Gopeed-v1.0.0-ios.ipa",
           "size": 0,
-          "buildVersion": null,
           "minOSVersion": "12.0"
         }
       ],
@@ -340,7 +369,6 @@
           "localizedDescription": "Custom proxy settings added !",
           "downloadURL": "https://github.com/Bitte-ein-Git/sidestore-repo/releases/download/tv.twitch/Twitch+.ipa",
           "size": 83900000,
-          "buildVersion": null,
           "minOSVersion": "12.0"
         }
       ],
