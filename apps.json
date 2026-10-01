@@ -202,7 +202,7 @@
       "subtitle": "iOS YouTube Music Vanced experience.",
       "localizedDescription": "YouTube Music with tweaks for a better experience.",
       "iconURL": "http://repo.heyfordy.dev/assets/ytmusic.png",
-      "tintColor": "#FD0100",
+      "tintColor": "#74307c",
       "category": "entertainment",
       "screenshots": [
         "https://raw.githubusercontent.com/Bitte-ein-Git/ios_ytmusic/main/Resources/scrn1.png",
@@ -213,6 +213,13 @@
       ],
       "versions": [
         {
+          "version": "9.39.2",
+          "date": "2026-10-01T10:01:00+02:00",
+          "localizedDescription": "Tweak updated to 2.4.1 !",
+          "downloadURL": "https://github.com/Bitte-ein-Git/ios_ytmusic/releases/download/v2.4.1/FordyYTM_2.4.1.ipa",
+          "size": 107000000
+        },
+        {
           "version": "9.06.4",
           "date": "2026-02-27T00:00:00+01:00",
           "localizedDescription": "Added to repo !",
@@ -222,7 +229,16 @@
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": {}
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "YouTube Music uses Bluetooth to locate and connect to Chromecast and other devices.",
+          "NSBluetoothPeripheralUsageDescription": "YouTube Music uses Bluetooth to locate and connect to Chromecast and other devices.",
+          "NSCameraUsageDescription": "To take a profile picture, allow YouTube Music to access your camera.",
+          "NSContactsUsageDescription": "This will allow you to invite your family into your membership plan.",
+          "NSLocalNetworkUsageDescription": "Access to your network allows YouTube Music to discover and connect to devices such as your TV.",
+          "NSMicrophoneUsageDescription": "This lets you include audio with your videos.",
+          "NSPhotoLibraryAddUsageDescription": "To save images, allow YouTube Music to access your photo library.",
+          "NSPhotoLibraryUsageDescription": "To choose a profile picture, allow YouTube Music to access your photos."
+        }
       }
     },
     {
