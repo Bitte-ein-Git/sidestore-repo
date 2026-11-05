@@ -38,6 +38,14 @@
       ],
       "versions": [
         {
+          "downloadURL": "https://github.com/elias1731/hello/releases/download/ytp-21.44.4/FordyYT_21.44.4.ipa",
+          "size": 161100000,
+          "version": "21.44.4",
+          "date": "2026-11-03T17:28:00+02:00",
+          "localizedDescription": "YT updated to 21.44.4 | Tweak updated to v6.0 !",
+          "minOSVersion": "17.0"
+        },
+        {
           "downloadURL": "https://github.com/elias1731/hello/releases/download/ytp-21.41.5/FordyYT_21.41.5.ipa",
           "size": 152100000,
           "version": "21.41.5",
