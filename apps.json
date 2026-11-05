@@ -415,10 +415,10 @@
   ],
   "news": [
     {
-      "title": "YouTube+🗿 updated",
-      "identifier": "news_l6pdx3vwsm",
-      "caption": "to version 21.41.5 !",
-      "date": "2026-10-19T18:28",
+      "title": "YouTube+🗿 updated!",
+      "identifier": "news_l7pdx3vwsm",
+      "caption": "Now using YTLite v6.0",
+      "date": "2026-11-01T18:28",
       "tintColor": "#fe2602",
       "notify": true,
       "appID": "com.google.ios.youtube"
